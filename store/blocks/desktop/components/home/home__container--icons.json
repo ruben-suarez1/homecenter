@@ -1,152 +1,190 @@
 {
   "flex-layout.row#home__container--icon": {
     "children": [
-      "flex-layout.col#module__icon--one",
-      "flex-layout.col#module__icon--two",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4",
-      "flex-layout.col#deals5",
-      "flex-layout.col#deals6"
+      "flex-layout.col#module__one",
+      "flex-layout.col#module__two",
+      "flex-layout.col#module__three",
+      "flex-layout.col#module__four",
+      "flex-layout.col#module__five",
+      "flex-layout.col#module__six"
     ],
     "props": {
       "blockClass": "deals"
     }
   },
 
-  "flex-layout.col#module__icon--one": {
+  "flex-layout.col#module__one": {
     "children": [
-      "image#module__icon--one",
-      "rich-text#module__icon--one",
-      "rich-text#module__icon--one__paragraph"
+      "image#module__one",
+      "rich-text#module__one--title",
+      "rich-text#module__one--paragraph"
     ],
     "props": {
+      
+      "href": "/",
       "blockClass": "icon__container"
     }
   },
-  
-  "image#module__icon--one": {
+  "image#module__one": {
     "props": {
       "src": "assets/img/icon__deal1.png",
-      "maxHeight": 60,
-      "link": "google.com"
+      "maxHeight": 60
     }
   },
-  "rich-text#module__icon--one": {
+  "rich-text#module__one--title": {
     "props": {
       "text": "Asistente de Compras",
-      "blockClass": "deals"
+      "blockClass": "deals__title"
     }
   },
-  "rich-text#module__icon--one__paragraph": {
+  "rich-text#module__one--paragraph": {
     "props": {
       "text": "Cotiza, prueba y compra tus pryectos aquí.",
       "blockClass": "deals"
     }
   },
 
-  "flex-layout.col#module__icon--two": {
+  "flex-layout.col#module__two": {
     "children": [
-      "image#module__icon--two",
-      "rich-text#module__icon--two"
+      "image#module__two",
+      "rich-text#module__two--title",
+      "rich-text#module__two--paragraph"
     ],
     "props": {
       "blockClass": "icon__container"
     }
   },
-  "image#module__icon--two": {
+  "image#module__two": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "src": "assets/img/icon__deal2.png",
+      "maxHeight": 60
     }
   },
-  "rich-text#module__icon--two": {
+  "rich-text#module__two--title": {
     "props": {
-      "text": "One day delivery",
+      "text": "Compra por WhatsApp",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#module__two--paragraph": {
+    "props": {
+      "text": "**310 2427373**\nL-V: 6:00 a.m - 9:00 p.m\nS: 8:00 a.m – 7:00 p.m\nD-F: 8:00 a.m - 5:00 p.m",
       "blockClass": "deals"
     }
   },
 
-  "flex-layout.col#deals3": {
+  "flex-layout.col#module__three": {
     "children": [
-      "image#deal3",
-      "rich-text#deal3"
+      "image#module__three",
+      "rich-text#module__three--title",
+      "rich-text#module__three--paragraph"
     ],
     "props": {
       "blockClass": "icon__container"
     }
   },
-  "image#deal3": {
+  "image#module__three": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-      "maxHeight": "24px"
+      "src": "assets/img/icon__deal3.png",
+      "maxHeight": 60
     }
   },
-  "rich-text#deal3": {
+  "rich-text#module__three--title": {
     "props": {
-      "text": "Pick up in store",
+      "text": "Car Center Autostyle",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#module__three--paragraph": {
+    "props": {
+      "text": "Tu tienda especializada en Autos",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals4": {
+
+  "flex-layout.col#module__four": {
     "children": [
-      "image#deal4",
-      "rich-text#deal4"
+      "image#module__four",
+      "rich-text#module__four--title",
+      "rich-text#module__four--paragraph"
     ],
     "props": {
       "blockClass": "icon__container"
     }
   },
-  "image#deal4": {
+  "image#module__four": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "assets/img/icon__deal4.png",
+      "maxHeight": 60
     }
   },
-  "rich-text#deal4": {
+  "rich-text#module__four--title": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "Constructor",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#module__four--paragraph": {
+    "props": {
+      "text": "Encuentre todo para el especialista aquí",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals5": {
+
+  "flex-layout.col#module__five": {
     "children": [
-      "image#deal5",
-      "rich-text#deal5"
+      "image#module__five",
+      "rich-text#module__five--title",
+      "rich-text#module__five--paragraph"
     ],
     "props": {
       "blockClass": "icon__container"
     }
   },
-  "image#deal5": {
+  "image#module__five": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "assets/img/icon__deal5.png",
+      "maxHeight": 60
     }
   },
-  "rich-text#deal5": {
+  "rich-text#module__five--title": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "Solicita tu tarjeta CMR",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#module__five--paragraph": {
+    "props": {
+      "text": "Y recibe una devolución  para tu primera compra ",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals6": {
+
+  "flex-layout.col#module__six": {
     "children": [
-      "image#deal6",
-      "rich-text#deal6"
+      "image#module__six",
+      "rich-text#module__six--title",
+      "rich-text#module__six--paragraph"
     ],
     "props": {
       "blockClass": "icon__container"
     }
   },
-  "image#deal6": {
+  "image#module__six": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "assets/img/icon__deal2.png",
+      "maxHeight": 60
     }
   },
-  "rich-text#deal6": {
+  "rich-text#module__six--title": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "CMR Puntos",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#module__six--paragraph": {
+    "props": {
+      "text": "Acumula con cualquier medio de pago, inscríbete gratis aquí",
       "blockClass": "deals"
     }
   }

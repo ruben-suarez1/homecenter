@@ -2,8 +2,9 @@
     color: var(--black-color) !important;
     text-align: center;
     justify-content: center;
+    font-weight: 400;
   }
 
-  .container--deals .paragraph {
-    margin: 0;
+  .container--deals__title {
+    color: var(--text-secondary);
   }
