@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#home__main": {
+    "props": {
+      "fullWidth": false,
+      "blockClass": "container__main"
+    },
+    "children": [
+        "flex-layout.row#home__container--icon"
+    ]
+  }
+    
+}

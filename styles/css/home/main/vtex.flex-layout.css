@@ -1,0 +1,36 @@
+.flexRowContent--deals {
+  justify-content: space-between;
+}
+.flexRow--container__main {
+    padding-top: 5.5rem;
+    background-color: var(--primary-color);
+}
+
+.flexRow--deals {
+  background-color: var(--primary-color) !important;
+  padding: 0rem;
+  max-width: 80%;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+  margin-bottom: 0.313rem;
+  padding-top: 0.313rem;
+}
+
+.flexCol--icon__container {
+    background-color: var(--white-color); 
+    margin: 0.125rem;
+    border-radius: 0.188rem;
+    box-shadow: none;
+    padding: 0.626rem;
+    width: 100%;
+}
+.flexCol--icon__container:hover {
+  box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.2); 
+}
+

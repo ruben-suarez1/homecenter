@@ -1,0 +1,9 @@
+.container--deals {
+    color: var(--black-color) !important;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .container--deals .paragraph {
+    margin: 0;
+  }

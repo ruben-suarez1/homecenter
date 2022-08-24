@@ -1,10 +1,12 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "flex-layout.row#home__banner--one",
+      "list-context.image-list#home__slider--one",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
+       "flex-layout.row#home__main",
+       
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
@@ -15,34 +17,8 @@
     ]
   },
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
-    "props": {
-      "height": 570,
-      "preload": true,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-        }
-      ]
-    }
-  },
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    }
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
   },
 
   "rich-text#shelf-title": {
@@ -50,9 +26,6 @@
       "text": "## Summer",
       "blockClass": "shelfTitle"
     }
-  },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],

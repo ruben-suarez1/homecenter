@@ -1,0 +1,16 @@
+{
+    "flex-layout.row#home__banner--one": {
+      "props": {
+        "blockClass": "banner__one",
+        "fullWidth" : true
+      },
+        "children": ["image#banner__image"]
+      },
+      "image#banner__image": {
+        "props": {
+          "src": "assets/banner__image--1.svg",
+          "maxHeight": 60,
+          "link": "google.com"
+        }
+      }
+}

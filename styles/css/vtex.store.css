@@ -1,0 +1,6 @@
+:global(.vtex-store__template) {
+    --primary-color: #f5f5f5;
+    --secondary-color: #0F3E99;
+    --white-color: #fff;
+    --black-color: #444;
+  }

@@ -1,0 +1,42 @@
+{  
+  "list-context.image-list#home__slider--one": {
+    "title": "carousel one",
+    "children": ["slider-layout#slider__amount--images"],
+    "props": {
+      "height": 462.8,
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/slider__one--1.webp",
+          "mobileImage": "assets/img/slider__one--1.webp",
+          "link":"http://api.vtex.com/{accountName}/dataentities/users/schemas/user-v1"
+        },
+        {
+          "image": "assets/img/slider__one--2.webp",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        }
+        ,
+        {
+          "image": "assets/img/slider__one--3.webp",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider__amount--images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "stopOnHover":true,
+        "timeout" : 3000
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel__one"
+    }
+  }
+}
