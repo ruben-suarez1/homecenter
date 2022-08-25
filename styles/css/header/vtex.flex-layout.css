@@ -1,0 +1,10 @@
+
+.flexRowContent--main-header {
+    background-color: var(--white-color);
+    width: 85%;
+    height: 6rem;
+    margin: 0 auto;
+}
+.flexRow--main-header{
+    background-color: var(--white-color);
+}

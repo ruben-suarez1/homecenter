@@ -59,9 +59,8 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "minicart.v2",
+      "login"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -80,9 +79,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "assets/logo.png",
       "width": "180",
-      "height": "12"
+      "height": "35"
     }
   },
   "header-layout.mobile": {

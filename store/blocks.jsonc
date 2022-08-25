@@ -25,9 +25,11 @@
 
   "login-content#default": {
     "props": {
+      "accesCodeTitle": "LOG",
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
     }
   },
 
