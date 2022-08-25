@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#home__container--icon": {
+  "flex-layout.row#home__icon--one": {
     "children": [
       "flex-layout.col#module__one",
       "flex-layout.col#module__two",

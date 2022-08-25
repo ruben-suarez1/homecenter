@@ -1,0 +1,39 @@
+{
+    "flex-layout.row#home__promo--five": {
+        "children": [
+            "flex-layout.col#grid3__one",
+            "flex-layout.col#grid3__two"
+        ],
+        "props": {
+            "blockClass": "promo__banner"
+        }
+    },
+    "flex-layout.col#grid3__one": {
+        "children": [
+            "image#grid3__one"
+        ],
+        "props": {
+            "blockClass": "icon__banner"
+        }
+    },
+    "image#grid3__one": {
+        "props": {
+            "src": "assets/img/crm__one.webp",
+            "maxHeight": 370
+        }
+    },
+    "flex-layout.col#grid3__two": {
+        "children": [
+            "image#grid3__two"
+        ],
+        "props": {
+            "blockClass": "icon__banner"
+        }
+    },
+    "image#grid3__two": {
+        "props": {
+            "src": "assets/img/crm__two.webp",
+            "maxHeight": 370
+        }
+    }
+}

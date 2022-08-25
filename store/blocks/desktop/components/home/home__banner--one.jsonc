@@ -9,8 +9,7 @@
       "image#banner__image": {
         "props": {
           "src": "assets/banner__image--1.svg",
-          "maxHeight": 60,
-          "link": "google.com"
+          "maxHeight": 60
         }
       }
 }

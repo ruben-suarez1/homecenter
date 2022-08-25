@@ -1,0 +1,73 @@
+{
+  "flex-layout.row#home__promo--one": {
+    "children": [
+        "flex-layout.col#promo__one",
+        "flex-layout.col#promo__two",
+        "flex-layout.col#promo__three",
+        "flex-layout.col#promo__four"
+
+      ],
+      "props": {
+        "blockClass": "promo__banner"
+      }
+  },
+  "flex-layout.col#promo__one": {
+    "children": [
+      "image#promo__one"
+    ],
+    "props": {
+      "blockClass": "icon__banner"
+    }
+  },
+  "image#promo__one": {
+    "props": {
+      "src": "assets/img/promo__image1.webp",
+      "maxHeight": 370
+    }
+  },
+
+  "flex-layout.col#promo__two": {
+    "children": [
+      "image#promo__two"
+    ],
+    "props": {
+      "blockClass": "icon__banner"
+    }
+  },
+  "image#promo__two": {
+    "props": {
+      "src": "assets/img/promo__image2.webp",
+      "maxHeight": 370
+    }
+  },
+
+  "flex-layout.col#promo__three": {
+    "children": [
+      "image#promo__three"
+    ],
+    "props": {
+      "blockClass": "icon__banner"
+    }
+  },
+  "image#promo__three": {
+    "props": {
+      "src": "assets/img/promo__image3.webp",
+      "maxHeight": 370
+    }
+  },
+
+  "flex-layout.col#promo__four": {
+    "children": [
+      "image#promo__four"
+    ],
+    "props": {
+      "blockClass": "icon__banner"
+    }
+  },
+  "image#promo__four": {
+    "props": {
+      "src": "assets/img/promo__image4.webp",
+      "maxHeight": 400
+    }
+  }
+}

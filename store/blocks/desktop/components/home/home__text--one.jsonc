@@ -1,0 +1,8 @@
+{
+  "rich-text#shelf__title--one": {
+    "props": {
+      "text": "## Mundo CMR Homecenter",
+      "blockClass": "shelfTitle"
+    }
+  }
+}

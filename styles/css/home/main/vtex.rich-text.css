@@ -5,6 +5,18 @@
     font-weight: 400;
   }
 
-  .container--deals__title {
-    color: var(--text-secondary);
-  }
+.container--deals__title {
+  color: var(--text-secondary);
+}
+
+.container--shelfTitle {
+  color: var(--black-color) !important;
+  margin: 0 10rem;
+  justify-content: left !important;
+  text-align: left !important;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+

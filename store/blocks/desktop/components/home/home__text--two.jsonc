@@ -1,0 +1,8 @@
+{
+    "rich-text#shelf__title--two": {
+      "props": {
+        "text": "## Servicios e Información",
+        "blockClass": "shelfTitle"
+      }
+    }
+  }
