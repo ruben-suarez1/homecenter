@@ -1,0 +1,27 @@
+
+.flexRowContent--main-header {
+    background-color: var(--white-color);
+    width: 85%;
+    height: 6rem;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.flexRow--main-header{
+    background-color: var(--white-color);
+}
+
+.DesktopSearchBar-module_search-bar__1PiDn {
+    width: 35vw;
+    border: 0.0625rem solid #f0f0f0;
+    padding: 0;
+    position: relative;
+}
+
+.searchBarContainer .vtex-input-prefix__group{
+    width: 35vw;
+}
+
+
+.vtex-store-components-3-x-searchBarContainer .input {
+    background: var(--white-color);
+}

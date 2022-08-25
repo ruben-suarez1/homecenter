@@ -10,6 +10,8 @@
       "flex-layout.row#1-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
+      ,
+      "flex-layout.row#category-menu"
     ]
   },
 
@@ -56,12 +58,9 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
-      "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "minicart.v2",
+      "login"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -70,7 +69,7 @@
     },
     "children": ["logo#desktop"]
   },
-  "flex-layout.col#category-menu": {
+  "flex-layout.row#category-menu": {
     "props": {
       "verticalAlign": "middle"
     },
@@ -80,9 +79,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "assets/logo.png",
       "width": "180",
-      "height": "12"
+      "height": "35"
     }
   },
   "header-layout.mobile": {
