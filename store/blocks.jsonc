@@ -20,7 +20,10 @@
   },
 
   "store.login": {
-    "blocks": ["login-content#default"]
+    "blocks": ["login-content#default"],
+    "props": {
+      "showIconProfile": true
+    }
   },
 
   "login-content#default": {
@@ -28,8 +31,7 @@
       "accesCodeTitle": "LOG",
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true
+      "showPasswordVerificationIntoTooltip": true
     }
   },
 
