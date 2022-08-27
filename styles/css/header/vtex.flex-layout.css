@@ -1,4 +1,3 @@
-
 .flexRowContent--main-header {
     background-color: var(--white-color);
     width: 85%;
@@ -6,7 +5,8 @@
     margin: 0 auto;
     justify-content: space-around;
 }
-.flexRow--main-header{
+
+.flexRow--main-header {
     background-color: var(--white-color);
 }
 
@@ -17,11 +17,44 @@
     position: relative;
 }
 
-.searchBarContainer .vtex-input-prefix__group{
+.searchBarContainer .vtex-input-prefix__group {
     width: 35vw;
 }
-
 
 .vtex-store-components-3-x-searchBarContainer .input {
     background: var(--white-color);
 }
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+    color: #333 !important;
+    font-size: 0.75rem !important;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+    color: #ffffff;
+}
+
+.flexRowContent--menu-link {
+    background-color: #f0f0f0 !important;
+    color: #333 !important;
+}
+
+.flexRowContent--main-header {
+    background-color: var(--white-color) !important;
+}
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+    padding: 0 0.1rem;
+}
+.menuContainerNav--category-menu{
+    width: 80%;
+}
+.menuContainer .menuContainer--category-menu {
+    width: 80% !important;
+    margin: 0 auto
+}
+.menuContainer--category-menu {
+    justify-content: center;
+}
+

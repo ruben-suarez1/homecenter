@@ -1,0 +1,178 @@
+{    
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#institutional"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#websites": {
+    "props" : {
+      "blockClass": "websites"
+    },
+    "children": [
+      "menu-item#phone",
+      "menu-item#service",
+      "menu-item#shops",
+      "menu-item#price",
+      "menu-item#cmr"
+    ]
+  },
+  "menu-item#phone": {
+    "props": {
+      "id": "menu-item-phone",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "phone",
+        "text": "Venta Telefónica 011000 11 1000"
+      }
+    }
+  },
+  "menu-item#service": {
+    "props": {
+      "id": "menu-item-service",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "service",
+        "text": "Servicio al cliente 300 11 000 11"
+      }
+    }
+  },
+  "menu-item#shops": {
+    "props": {
+      "id": "menu-item-shops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "shops",
+        "text": "Tiendas"
+      }
+    }
+  },
+  "menu-item#price": {
+    "props": {
+      "id": "menu-item-price",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "price",
+        "text": "Precios bajos"
+      }
+    }
+  },
+  "menu-item#cmr": {
+    "props": {
+      "id": "menu-item-cmr",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "cmr",
+        "text": "Mundo CMR"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#institutional": {
+    "children": [
+      "menu-item#falabella",
+      "menu-item#bank",
+      "menu-item#insurance",
+      "menu-item#purchase"
+    ]
+  },
+  "menu-item#falabella": {
+    "props": {
+      "id": "menu-item-falabella",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "falabella",
+        "text": "FALLABELLA"
+      }
+    }
+  },
+  "menu-item#bank": {
+    "props": {
+      "id": "menu-item-banco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "banco",
+        "text": "BANCO"
+      }
+    }
+  },
+  "menu-item#insurance": {
+    "props": {
+      "id": "menu-item-seguros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "seguros",
+        "text": "SEGUROS"
+      }
+    }
+  },
+  "menu-item#purchase": {
+    "props": {
+      "id": "menu-item-purchase",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "purchase",
+        "text": " SEGUIMIENTO DE COMPRA"
+      }
+    }
+  }
+}

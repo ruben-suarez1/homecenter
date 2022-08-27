@@ -1,0 +1,310 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "category-menu"
+    },
+    "children": [
+      "menu-item#category-1",
+      "menu-item#category-2",
+      "menu-item#category-3",
+      "menu-item#category-4",
+      "menu-item#category-5"
+    ]
+  },
+
+  "menu-item#category-1": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Construcción y Ferretería",
+        "text": "Construcción y Ferretería"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-1"
+    ]
+  },
+  "menu-item#category-2": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Pisos, Pinturas y Terminaciones",
+        "text": "Pisos, Pinturas y Terminaciones"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-1"
+    ]
+  },
+  "menu-item#category-3": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Herramientas y Maquinarias",
+        "text": "Herramientas y Maquinarias"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-1"
+    ]
+  },
+  "menu-item#category-4": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Baño, Cocina y Aseo",
+        "text": "Baño, Cocina y Aseo"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-1"
+    ]
+  },
+  "menu-item#category-5": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Electrohogar, Tecnología y Climatización",
+        "text": "Electrohogar, Tecnología y Climatización"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-1"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#category-1": {
+    "props": {
+      "blockClass": "submenu-more",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu__category-1"
+    ]
+  },
+  "flex-layout.row#menu__category-1": {
+    "props":{
+      "blockClass": "menu-more"
+    },
+    "children": [
+      "flex-layout.col#menu__category-1",
+      "flex-layout.col#menu__category-1",
+      "flex-layout.col#menu__category-1",
+      "flex-layout.col#menu__category-1"
+    ]
+  },
+  "flex-layout.col#menu__category-1": {
+    "props":{
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category-1",
+      "vtex.menu@2.x:menu#menu__category-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category-1": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category__text-1",
+      "menu-item#category__text-2",
+      "menu-item#category__text-3",
+      "menu-item#category__text-4",
+      "menu-item#category__text-5",
+      "menu-item#category__text-6",
+      "menu-item#category__text-7",
+      "menu-item#category__text-8",
+      "menu-item#category__text-9",
+      "menu-item#category__text-10"
+    ]
+  },
+  "menu-item#category__text-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Materiales de Construcción",
+        "text": "Materiales de Construcción >"
+      }
+    }
+  },
+  "menu-item#category__text-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Cementos, Concreto y Morteros",
+        "text": "Cementos, Concreto y Morteros"
+      }
+    }
+  },
+  "menu-item#category__text-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Arenas y Gravas",
+        "text": "Arenas y Gravas"
+      }
+    }
+  },
+  "menu-item#category__text-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Ladrillos, Bloques y Adoquines",
+        "text": "Ladrillos, Bloques y Adoquines"
+      }
+    }
+  },
+  "menu-item#category__text-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Estucos, Yesos e Imprimantes",
+        "text": "Estucos, Yesos e Imprimantes"
+      }
+    }
+  },
+  "menu-item#category__text-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Impermeabilizantes y Barreras de Humedad",
+        "text": "Impermeabilizantes y Barreras de Humedad"
+      }
+    }
+  },
+  "menu-item#category__text-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Varillas de Hierro y Acero",
+        "text": "Varillas de Hierro y Acero"
+      }
+    }
+  },
+  "menu-item#category__text-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Mallas Electrosoldada",
+        "text": "Mallas Electrosoldada"
+      }
+    }
+  },
+  "menu-item#category__text-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "VAlambres, Concertina y Alfardas",
+        "text": "Alambres, Concertina y Alfardas"
+      }
+    }
+  },
+  "menu-item#category__text-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Ver más",
+        "text": "Ver más"
+      }
+    }
+  }
+}
