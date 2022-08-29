@@ -48,7 +48,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-1"
+      "vtex.menu@2.x:submenu#category-2"
     ]
   },
   "menu-item#category-3": {
@@ -86,7 +86,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-1"
+      "vtex.menu@2.x:submenu#category-2"
     ]
   },
   "menu-item#category-5": {
@@ -124,9 +124,9 @@
     },
     "children": [
       "flex-layout.col#menu__category-1",
+      "flex-layout.col#menu__category-2",
       "flex-layout.col#menu__category-1",
-      "flex-layout.col#menu__category-1",
-      "flex-layout.col#menu__category-1"
+      "flex-layout.col#menu__category-2"
     ]
   },
   "flex-layout.col#menu__category-1": {
@@ -178,6 +178,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -193,6 +194,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -208,6 +210,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -223,6 +226,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -238,12 +242,13 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
         "noFollow": true,
-        "tagTitle": "Impermeabilizantes y Barreras de Humedad",
-        "text": "Impermeabilizantes y Barreras de Humedad"
+        "tagTitle": "Impermeabilizantes y Barreras",
+        "text": "Impermeabilizantes y Barreras"
       }
     }
   },
@@ -253,6 +258,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -268,6 +274,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -283,6 +290,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "content-black",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
@@ -298,12 +306,597 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "content-blue",
       "itemProps": {
         "type": "internal",
         "href": "/faq",
         "noFollow": true,
         "tagTitle": "Ver más",
-        "text": "Ver más"
+        "text": "Ver más ..."
+      }
+    }
+  },
+
+  "flex-layout.col#menu__category-2": {
+    "props":{
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category-2",
+      "vtex.menu@2.x:menu#menu__category-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category-2": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category__text2-1",
+      "menu-item#category__text2-2",
+      "menu-item#category__text2-3",
+      "menu-item#category__text2-4",
+      "menu-item#category__text2-5",
+      "menu-item#category__text2-6",
+      "menu-item#category__text2-7",
+      "menu-item#category__text2-8",
+      "menu-item#category__text2-9",
+      "menu-item#category__text2-10"
+    ]
+  },
+  "menu-item#category__text2-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Pisos y Paredes",
+        "text": "Pisos y Paredes >"
+      }
+    }
+  },
+  "menu-item#category__text2-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Paredes y Pisos Cerámicos",
+        "text": "Paredes y Pisos Cerámicos"
+      }
+    }
+  },
+  "menu-item#category__text2-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Paredes y Pisos Porcelanato",
+        "text": "Paredes y Pisos Porcelanato"
+      }
+    }
+  },
+  "menu-item#category__text2-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Pisos Laminados",
+        "text": "Pisos Laminados"
+      }
+    }
+  },
+  "menu-item#category__text2-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Pisos Vinílicos",
+        "text": "Pisos Vinílicos"
+      }
+    }
+  },
+  "menu-item#category__text2-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Decorados y Mosaicos",
+        "text": "Decorados y Mosaicos"
+      }
+    }
+  },
+  "menu-item#category__text2-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Pegantes y Adhesivos para Pisos",
+        "text": "Pegantes y Adhesivos para Pisos"
+      }
+    }
+  },
+  "menu-item#category__text2-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Herramientas y Accesorios ",
+        "text": "Herramientas y Accesorios "
+      }
+    }
+  },
+  "menu-item#category__text2-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Cortadoras de Cerámica Manuales",
+        "text": "Cortadoras de Cerámica Manuales"
+      }
+    }
+  },
+  "menu-item#category__text2-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Ver más",
+        "text": "Ver más ..."
+      }
+    }
+  },
+
+  "vtex.menu@2.x:submenu#category-2": {
+    "props": {
+      "blockClass": "submenu-more",
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu__category2-2"
+    ]
+  },
+  "flex-layout.row#menu__category2-2": {
+    "props":{
+      "blockClass": "menu-more"
+    },
+    "children": [
+      "flex-layout.col#menu__category2-1",
+      "flex-layout.col#menu__category2-2",
+      "flex-layout.col#menu__category2-1",
+      "flex-layout.col#menu__category2-2"
+    ]
+  },
+  "flex-layout.col#menu__category2-1": {
+    "props":{
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category2-1",
+      "vtex.menu@2.x:menu#menu__category2-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category2-1": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category2__text-1",
+      "menu-item#category2__text-2",
+      "menu-item#category2__text-3",
+      "menu-item#category2__text-4",
+      "menu-item#category2__text-5",
+      "menu-item#category2__text-6",
+      "menu-item#category2__text-7",
+      "menu-item#category2__text-8",
+      "menu-item#category2__text-9",
+      "menu-item#category2__text-10"
+    ]
+  },
+  "menu-item#category2__text-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Herramientas Manuales",
+        "text": "Herramientas Manuales >"
+      }
+    }
+  },
+  "menu-item#category2__text-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Alicates y Hombresolo",
+        "text": "Alicates y Hombresolo"
+      }
+    }
+  },
+  "menu-item#category2__text-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Destornilladores",
+        "text": "Destornilladores"
+      }
+    }
+  },
+  "menu-item#category2__text-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Kit de Herramientas Manuales",
+        "text": "Kit de Herramientas Manuales"
+      }
+    }
+  },
+  "menu-item#category2__text-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Martillos y Mazos",
+        "text": "Martillos y Mazos"
+      }
+    }
+  },
+  "menu-item#category2__text-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Tijeras y Cizallas",
+        "text": "Tijeras y Cizallas"
+      }
+    }
+  },
+  "menu-item#category2__text-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Llaves y Juego de Copas",
+        "text": "Llaves y Juego de Copas"
+      }
+    }
+  },
+  "menu-item#category2__text-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Prensas, Guías y Plantillas",
+        "text": "Prensas, Guías y Plantillas"
+      }
+    }
+  },
+  "menu-item#category2__text-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Cortadoras de Cerámica Manuales",
+        "text": "Cortadoras de Cerámica Manuales"
+      }
+    }
+  },
+  "menu-item#category2__text-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Ver más",
+        "text": "Ver más ..."
+      }
+    }
+  },
+
+  "flex-layout.col#menu__category2-2": {
+    "props":{
+      "blockClass": "menu-more-1"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menu__category2-2",
+      "vtex.menu@2.x:menu#menu__category2-2"
+    ]
+  },
+  "vtex.menu@2.x:menu#menu__category2-2": {
+    "props": {
+      "blockClass": "menu-menu-more",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category2__text2-1",
+      "menu-item#category2__text2-2",
+      "menu-item#category2__text2-3",
+      "menu-item#category2__text2-4",
+      "menu-item#category2__text2-5",
+      "menu-item#category2__text2-6",
+      "menu-item#category2__text2-7",
+      "menu-item#category2__text2-8",
+      "menu-item#category2__text2-9",
+      "menu-item#category2__text2-10"
+    ]
+  },
+  "menu-item#category2__text2-1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Baños",
+        "text": "Baños >"
+      }
+    }
+  },
+  "menu-item#category2__text2-2": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Sanitarios e Inodoros",
+        "text": "Sanitarios e Inodoros"
+      }
+    }
+  },
+  "menu-item#category2__text2-3": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Combos Sanitarios",
+        "text": "Combos Sanitarios"
+      }
+    }
+  },
+  "menu-item#category2__text2-4": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Lavamanos",
+        "text": "Lavamanos"
+      }
+    }
+  },
+  "menu-item#category2__text2-5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Grifería para Lavamanos",
+        "text": "Grifería para Lavamanos"
+      }
+    }
+  },
+  "menu-item#category2__text2-6": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Extractores de Aire",
+        "text": "Extractores de Aire"
+      }
+    }
+  },
+  "menu-item#category2__text2-7": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Grifería para Ducha",
+        "text": "Grifería para Ducha"
+      }
+    }
+  },
+  "menu-item#category2__text2-8": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Muebles de Baño",
+        "text": "Muebles de Baño"
+      }
+    }
+  },
+  "menu-item#category2__text2-9": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-black",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Calentadores de Agua a Gas",
+        "text": "Calentadores de Agua a Gas"
+      }
+    }
+  },
+  "menu-item#category2__text2-10": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "content-blue",
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "Ver más",
+        "text": "Ver más ..."
       }
     }
   }

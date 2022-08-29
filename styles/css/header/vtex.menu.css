@@ -1,0 +1,34 @@
+.menuContainer--category-menu {
+    justify-content: center;
+}
+.styledLinkContent--content-blue {
+    color: var(--text-secondary);
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+.styledLinkContent--more {
+    text-transform: uppercase;
+}
+.styledLink--more {
+    font-size: 0.8rem;
+}
+.styledLinkContent--content-black {
+    font-size: 0.8rem;
+}
+.menuItem--more:hover {
+    background-color: var(--primary-color);
+    box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.2); 
+}
+.submenuWrapper--submenu-more {
+    background-color: var(--primary-color);
+    width: 80%;
+    margin-left: 10%;   
+}
+.menuItem--content-black:hover {
+    text-decoration: underline;
+}
+.menuItem--content-blue:hover {
+    text-decoration: underline;
+}
+
+

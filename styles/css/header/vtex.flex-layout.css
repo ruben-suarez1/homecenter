@@ -43,18 +43,3 @@
     background-color: var(--white-color) !important;
 }
 
-.flexRowContent--menu-link,
-.flexRowContent--main-header {
-    padding: 0 0.1rem;
-}
-.menuContainerNav--category-menu{
-    width: 80%;
-}
-.menuContainer .menuContainer--category-menu {
-    width: 80% !important;
-    margin: 0 auto
-}
-.menuContainer--category-menu {
-    justify-content: center;
-}
-
