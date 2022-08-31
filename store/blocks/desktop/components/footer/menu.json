@@ -81,7 +81,6 @@
       "menu-item#tvs"
     ]
   },
-
   "menu-item#smartphones": {
     "props": {
       "id": "menu-item-smartphones",
@@ -97,7 +96,6 @@
       }
     }
   },
-
   "menu-item#videogames": {
     "props": {
       "id": "menu-item-videogames",
@@ -113,7 +111,6 @@
       }
     }
   },
-
   "menu-item#tvs": {
     "props": {
       "id": "menu-item-tvs",
@@ -140,7 +137,6 @@
       "menu-item#necessaire"
     ]
   },
-
   "menu-item#bags": {
     "props": {
       "id": "menu-item-bags",
@@ -156,7 +152,6 @@
       }
     }
   },
-
   "menu-item#backpacks": {
     "props": {
       "id": "menu-item-backpacks",
@@ -172,7 +167,6 @@
       }
     }
   },
-
   "menu-item#necessaire": {
     "props": {
       "id": "menu-item-necessaire",
@@ -202,6 +196,99 @@
       "menu-item#cropped"
     ]
   },
+  "menu-item#clothing": {
+    "props": {
+      "id": "menu-item-category-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/d",
+        "noFollow": true,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#shorts": {
+    "props": {
+      "id": "menu-item-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+  "menu-item#tank-tops": {
+    "props": {
+      "id": "menu-item-tank-tops",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/tank-tops",
+        "noFollow": false,
+        "tagTitle": "Tank tops",
+        "text": "Tank tops"
+      }
+    }
+  },
+  "menu-item#shirts": {
+    "props": {
+      "id": "menu-item-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shirts",
+        "noFollow": false,
+        "tagTitle": "Shirts",
+        "text": "Shirts"
+      }
+    }
+  },
+  "menu-item#sweatshirt": {
+    "props": {
+      "id": "menu-item-sweat-shirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/sweatshirt",
+        "noFollow": false,
+        "tagTitle": "Sweatshirt",
+        "text": "Sweatshirt"
+      }
+    }
+  },
+  "menu-item#cropped": {
+    "props": {
+      "id": "menu-item-cropped",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/cropped",
+        "noFollow": false,
+        "tagTitle": "Cropped",
+        "text": "Cropped"
+      }
+    }
+  },
+
+
+
 
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
@@ -246,7 +333,6 @@
       "menu-item#cropped"
     ]
   },
-
   "menu-item#decoration-mobile": {
     "props": {
       "itemProps": {
@@ -259,7 +345,6 @@
   "vtex.menu@2.x:submenu.accordion#decoration": {
     "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
   },
-
   "vtex.menu@2.x:menu#footer-decoration-mobile": {
     "props": {
       "orientation": "vertical"
@@ -270,7 +355,6 @@
       "menu-item#tvs"
     ]
   },
-
   "menu-item#sale-mobile": {
     "props": {
       "itemProps": {
@@ -293,101 +377,5 @@
       "menu-item#videogames",
       "menu-item#tvs"
     ]
-  },
-
-  "menu-item#clothing": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    }
-  },
-
-  "menu-item#shorts": {
-    "props": {
-      "id": "menu-item-shorts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shorts",
-        "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
-      }
-    }
-  },
-
-  "menu-item#tank-tops": {
-    "props": {
-      "id": "menu-item-tank-tops",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/tank-tops",
-        "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
-      }
-    }
-  },
-
-  "menu-item#shirts": {
-    "props": {
-      "id": "menu-item-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/shirts",
-        "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
-      }
-    }
-  },
-
-  "menu-item#sweatshirt": {
-    "props": {
-      "id": "menu-item-sweat-shirts",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/sweatshirt",
-        "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
-      }
-    }
-  },
-
-  "menu-item#cropped": {
-    "props": {
-      "id": "menu-item-cropped",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/cropped",
-        "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
-      }
-    }
   }
 }

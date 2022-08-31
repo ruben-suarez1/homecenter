@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#footer-4-desktop": {
+        "children": [
+          "flex-layout.col#footer__one",
+          "flex-layout.col#footer__one",
+          "flex-layout.col#footer__one",
+          "flex-layout.col#footer__one"
+        ],
+        "props": {
+          "blockClass": ""
+        }
+      },
+    
+      "flex-layout.col#footer__one": {
+        "children": [
+          "image#footer__one",
+          "rich-text#footer__one--title"
+        ],
+        "props": {
+          
+          "href": "/",
+          "blockClass": ""
+        }
+      },
+      "image#footer__one": {
+        "props": {
+          "src": "assets/img/icon4__1.png",
+          "maxHeight": 64
+        }
+      },
+      "rich-text#footer__one--title": {
+        "props": {
+          "text": "Pregunas frecuentes",
+          "blockClass": ""
+        }
+      }
+}

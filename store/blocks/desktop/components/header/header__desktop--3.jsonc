@@ -19,6 +19,7 @@
       "flex-layout.col#logo-desktop",
       "search-bar",
       "minicart.v2",
+      "flex-layout.col#logo-cart",
       "login"
     ]
   },
@@ -28,17 +29,27 @@
     },
     "children": ["logo#desktop"]
   },
-  "flex-layout.row#category-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
-  },
   "logo#desktop": {
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "assets/logo.png",
+      "width": "180",
+      "height": "35"
+    }
+  },
+
+  "flex-layout.col#logo-cart": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#cart"]
+  },
+  "logo#cart": {
+    "props": {
+      "title": "Logo-cart",
+      "href": "/cart-page",
+      "url": "assets/icon/cart-icon.svg",
       "width": "180",
       "height": "35"
     }

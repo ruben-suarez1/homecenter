@@ -5,7 +5,10 @@
   "store.custom#faq": {
     "path": "/faq"
   },
+  "store.custom#cart-page": {
+    "path": "/cart-page"
+  },
   "store.custom#contact-us": {
-    "path": "/contacto"
+    "path": "/contact-us"
   }
 }
