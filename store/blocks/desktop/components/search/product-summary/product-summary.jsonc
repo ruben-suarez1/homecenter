@@ -1,5 +1,8 @@
 {
   "product-summary.shelf": {
+    "props": {
+      "blockClass": "summary-shelf"
+    },
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",

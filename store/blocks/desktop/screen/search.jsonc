@@ -2,6 +2,7 @@
   "store.search": {
     "blocks": ["search-result-layout"],
     "props": {
+      "blockClass": "search-container",
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default"
@@ -12,6 +13,7 @@
   "store.search#brand": {
     "blocks": ["search-result-layout"],
     "props": {
+      "blockClass": "brand",
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
@@ -25,6 +27,7 @@
   "store.search#department": {
     "blocks": ["search-result-layout"],
     "props": {
+      "blockClass": "department",
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default"
@@ -35,6 +38,7 @@
   "store.search#category": {
     "blocks": ["search-result-layout"],
     "props": {
+      "blockClass": "category",
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default"
@@ -45,6 +49,7 @@
   "store.search#subcategory": {
     "blocks": ["search-result-layout"],
     "props": {
+      "blockClass": "subcategory",
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default"
@@ -53,6 +58,10 @@
   },
 
   "search-result-layout": {
+    "props": {
+      "blockClass": "result-layout",
+      "fullWidth":false
+    },
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
