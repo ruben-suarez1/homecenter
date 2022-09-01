@@ -27,7 +27,7 @@
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
       "preventHorizontalStretch": true,
-      "fullWidth": true
+      "fullWidth": false
     }
   },
   "flex-layout.col#filter": {
@@ -66,6 +66,7 @@
       "blockClass": "productCountCol"
     }
   },
+  
   "flex-layout.row#fetchprevious": {
     "props": {
       "marginBottom": 3
@@ -108,15 +109,15 @@
           "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
-            "(min-width:1300px)": 4,
-            "desktop": 3,
+            "(min-width:1300px)": 6,
+            "desktop": 6,
             "tablet": 3,
             "phone": 2
           }
         },
         {
           "name": "list",
-          "component": "ListSummary",
+          "component": "GridSummary",
           "itemsPerRow": 1
         }
       ],
