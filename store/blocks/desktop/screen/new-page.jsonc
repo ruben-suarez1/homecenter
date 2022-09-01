@@ -1,0 +1,16 @@
+{
+    "store.custom#new-page": {
+        "blocks": [
+          "rich-text#page"
+      ]
+    },
+    "rich-text#page": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**NEW PAGE**",
+        "font": "t-heading-1"
+      }
+    }
+  }
+  

@@ -1,0 +1,30 @@
+{
+"flex-layout.row#footer-credits": {
+    "children": [
+        "flex-layout.col#credits-image",
+        "rich-text#footer"
+    ],
+    "props": {
+        "blockClass": "credits"
+        }
+    },
+    "rich-text#footer": {
+    "props": {
+        "text": "Todos los derechos Reservados",
+        "blockClass": "text__credits"
+        }
+    },
+    "flex-layout.col#credits-image": {
+        "children": ["image#credits"],
+        "props": {
+            "blockClass": "image__credits"
+            }
+    },
+    "image#credits": {
+        "props": {
+          "blockClass": "image__credits",
+          "src": "assets/homencenter_icon.jpg",
+          "maxHeight": 25
+        }
+    }
+}

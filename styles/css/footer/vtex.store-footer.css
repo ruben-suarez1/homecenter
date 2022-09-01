@@ -1,0 +1,8 @@
+
+.row--menu-row .rowContainer {
+  align-items: center;
+  justify-content: center;
+}
+.socialNetworkWrapper--social-icon {
+  padding-left: 1rem !important;
+}

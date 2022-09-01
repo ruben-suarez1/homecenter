@@ -1,0 +1,33 @@
+.flexRow--footer-icon {
+    width: 80%;
+    margin: 0 auto;
+}
+.flexColChild--footer__one {
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+.flexRow--menu-row {
+    width: 80%;
+    margin: 0 auto;
+}
+.flexRow--credits {
+    width: 80%;
+    margin: 0 auto;
+}
+.flexRowContent--credits {
+    justify-content: center;
+}
+.stretchChildrenWidth {
+    width: 20%;
+}
+.flexColChild--image__credits{
+    margin-left: 80%;
+    margin-top: 1rem;
+}
+.flexRow--container-page {
+    background: var(--primary-color);
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 0.2rem;
+}

@@ -18,7 +18,6 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "search-bar",
-      "minicart.v2",
       "flex-layout.col#logo-cart",
       "login"
     ]
