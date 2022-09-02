@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__icon--one": {
+    "title": "bloque de iconos 1",
     "children": [
       "flex-layout.col#module__one",
       "flex-layout.col#module__two",
@@ -28,7 +29,10 @@
   "image#module__one": {
     "props": {
       "src": "assets/img/icon__deal1.png",
-      "maxHeight": 60
+      "maxHeight": 60,
+      "link": {
+        "url": "/new-page"
+      }
     }
   },
   "rich-text#module__one--title": {
