@@ -1,0 +1,42 @@
+{
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "minicart.v2",
+      "login"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/homencenter_icon.jpg",
+      "width": "35.5",
+      "height": "25.5"
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-1"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

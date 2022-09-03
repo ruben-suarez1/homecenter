@@ -8,17 +8,16 @@
       "images": [
         {
           "image": "assets/img/slider__one--1.webp",
-          "mobileImage": "assets/img/slider__one--1.webp",
-          "link":"http://api.vtex.com/{accountName}/dataentities/users/schemas/user-v1"
+          "mobileImage": "assets/img/slider__mobile--one.webp"
         },
         {
           "image": "assets/img/slider__one--2.webp",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "mobileImage": "assets/img/slider__mobile--two.webp"
         }
         ,
         {
           "image": "assets/img/slider__one--3.webp",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "mobileImage": "assets/img/slider__mobile--three.webp"
         }
       ]
     }

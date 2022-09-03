@@ -1,5 +1,9 @@
 {
     "responsive-layout.mobile": {
-        "children": []
+        "children": [
+            "flex-layout.row#banner__mobile--one",
+            "list-context.image-list#home__slider--one",
+            "flex-layout.row#home__icon--one"
+        ]
     }
 }

@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#banner__mobile--one": {
+        "title": "Banner 1",
+        "props": {
+          "blockClass": "banner__one",
+          "fullWidth" : true
+        },
+          "children": ["image#banner__image"]
+        },
+        "image#banner__image": {
+          "props": {
+            "src": "assets/banner__image--mobile.svg",
+            "maxHeight": 100,
+            "maxWidth": 720
+          }
+        }
+}
