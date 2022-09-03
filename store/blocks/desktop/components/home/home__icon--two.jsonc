@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__icon--two": {
+      "title": "bloque de iconos 2",
       "children": [
         "flex-layout.col#information2__one",
         "flex-layout.col#information2__two",
@@ -14,6 +15,7 @@
     },
   
     "flex-layout.col#information2__one": {
+      "title": "bloque 1",
       "children": [
         "image#information__one",
         "rich-text#information__one--title",
@@ -28,7 +30,10 @@
     "image#information__one": {
       "props": {
         "src": "assets/img/icon__information--1.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__one--title": {
@@ -45,6 +50,7 @@
     },
   
     "flex-layout.col#information2__two": {
+      "title": "bloque 2",
       "children": [
         "image#information__two",
         "rich-text#information__two--title",
@@ -57,7 +63,10 @@
     "image#information__two": {
       "props": {
         "src": "assets/img/icon__information--2.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__two--title": {
@@ -74,6 +83,7 @@
     },
   
     "flex-layout.col#information2__three": {
+      "title": "bloque 3",
       "children": [
         "image#information__three",
         "rich-text#information__three--title",
@@ -86,7 +96,10 @@
     "image#information__three": {
       "props": {
         "src": "assets/img/icon__information--3.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__three--title": {
@@ -103,6 +116,7 @@
     },
   
     "flex-layout.col#information2__four": {
+      "title": "bloque 4",
       "children": [
         "image#information__four",
         "rich-text#information__four--title",
@@ -115,7 +129,10 @@
     "image#information__four": {
       "props": {
         "src": "assets/img/icon__information--4.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__four--title": {
@@ -132,6 +149,7 @@
     },
   
     "flex-layout.col#information2__five": {
+      "title": "bloque 5",
       "children": [
         "image#information__five",
         "rich-text#information__five--title",
@@ -144,7 +162,10 @@
     "image#information__five": {
       "props": {
         "src": "assets/img/icon__information--5.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__five--title": {
@@ -161,6 +182,7 @@
     },
   
     "flex-layout.col#information2__six": {
+      "title": "bloque 6",
       "children": [
         "image#information__six",
         "rich-text#information__six--title",
@@ -173,7 +195,10 @@
     "image#information__six": {
       "props": {
         "src": "assets/img/icon__information--6.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__six--title": {

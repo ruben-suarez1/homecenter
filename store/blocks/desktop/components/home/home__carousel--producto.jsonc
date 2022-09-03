@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#home__shelf--one": {
+        "title": "carrusel de productos",
+        "children": [
+          "flex-layout.row#shelf"
+          ],
+          "props": {
+            "blockClass": "promo__banner"
+          }
+      },
+    
+      "flex-layout.row#shelf": {
+        "children": ["list-context.product-list#demo1"]
+      },
+    
+      "list-context.product-list#demo1": {
+        "blocks": ["product-summary.shelf"],
+        "children": ["slider-layout#demo-products"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+      },
+      "slider-layout#demo-products": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 6,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf"
+        }
+      }
+}

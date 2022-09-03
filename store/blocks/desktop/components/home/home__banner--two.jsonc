@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__banner--two": {
+      "title": "Banner 2",
         "children": [
             "image#banner2__image"
           ],
@@ -10,7 +11,10 @@
       "image#banner2__image": {
         "props": {
           "src": "assets/banner2__image--1.webp",
-          "maxHeight":100
+          "maxHeight":100,
+          "link": {
+            "url": "/new-page"
+          }
         }
     }
 }

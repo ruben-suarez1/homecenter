@@ -1,6 +1,6 @@
 {  
   "list-context.image-list#home__slider--one": {
-    "title": "carousel one",
+    "title": "carrusel 1",
     "children": ["slider-layout#slider__amount--images"],
     "props": {
       "height": 462.8,

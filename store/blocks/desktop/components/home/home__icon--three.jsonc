@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__icon--three": {
+      "title": "bloque de iconos 3",
       "children": [
         "flex-layout.col#information__seven",
         "flex-layout.col#information__eight",
@@ -14,21 +15,23 @@
     },
   
     "flex-layout.col#information__seven": {
+      "title": "bloque 7",
       "children": [
         "image#information__seven",
         "rich-text#information__seven--title",
         "rich-text#information__seven--paragraph"
       ],
       "props": {
-        
-        "href": "/",
         "blockClass": "icon__container"
       }
     },
     "image#information__seven": {
       "props": {
         "src": "assets/img/icon__information--7.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__seven--title": {
@@ -45,6 +48,7 @@
     },
   
     "flex-layout.col#information__eight": {
+      "title": "bloque 8",
       "children": [
         "image#information__eight",
         "rich-text#information__eight--title",
@@ -57,7 +61,10 @@
     "image#information__eight": {
       "props": {
         "src": "assets/img/icon__information--8.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__eight--title": {
@@ -74,6 +81,7 @@
     },
   
     "flex-layout.col#information__nine": {
+      "title": "bloque 9",
       "children": [
         "image#information__nine",
         "rich-text#information__nine--title",
@@ -86,7 +94,10 @@
     "image#information__nine": {
       "props": {
         "src": "assets/img/icon__information--9.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__nine--title": {
@@ -103,6 +114,7 @@
     },
   
     "flex-layout.col#information__ten": {
+      "title": "bloque 10",
       "children": [
         "image#information__ten",
         "rich-text#information__ten--title",
@@ -115,7 +127,10 @@
     "image#information__ten": {
       "props": {
         "src": "assets/img/icon__information--10.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__ten--title": {
@@ -132,6 +147,7 @@
     },
   
     "flex-layout.col#information__eleven": {
+      "title": "bloque 11",
       "children": [
         "image#information__eleven",
         "rich-text#information__eleven--title",
@@ -144,7 +160,10 @@
     "image#information__eleven": {
       "props": {
         "src": "assets/img/icon__information--11.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__eleven--title": {
@@ -161,6 +180,7 @@
     },
   
     "flex-layout.col#information__twelve": {
+      "title": "bloque 12",
       "children": [
         "image#information__twelve",
         "rich-text#information__twelve--title",
@@ -173,7 +193,10 @@
     "image#information__twelve": {
       "props": {
         "src": "assets/img/icon__information--12.png",
-        "maxHeight": 64
+        "maxHeight": 64,
+        "link": {
+          "url": "/new-page"
+        }
       }
     },
     "rich-text#information__twelve--title": {

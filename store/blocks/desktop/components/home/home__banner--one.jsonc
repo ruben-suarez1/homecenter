@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__banner--one": {
+      "title": "Banner 1",
       "props": {
         "blockClass": "banner__one",
         "fullWidth" : true
