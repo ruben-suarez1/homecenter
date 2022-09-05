@@ -1,5 +1,8 @@
 {
   "responsive-layout.desktop": {
+    "props": {
+      "blockClass": "home-menu"
+    },
     "children": [
       "flex-layout.row#home__banner--one",
       "list-context.image-list#home__slider--one",

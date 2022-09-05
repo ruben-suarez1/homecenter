@@ -7,7 +7,7 @@
         "flex-layout.col#promo2__three"
       ],
       "props": {
-        "blockClass": "promo__banner"
+        "blockClass": "promo__banner2--mobile"
       }
   },
   "flex-layout.col#promo2__one": {

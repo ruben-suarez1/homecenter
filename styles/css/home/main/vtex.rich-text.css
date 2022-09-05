@@ -20,3 +20,14 @@
   font-weight: 200;
 }
 
+
+ @media (max-width: 1024px) {
+  .container--shelfTitle {
+    margin: 0;
+  }
+
+  .heading-level-2  {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}

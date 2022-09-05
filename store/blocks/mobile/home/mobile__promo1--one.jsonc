@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#mobile__promo1--one": {
+        "title": "bloque1 de promocion 1",
+        "children": [
+            "flex-layout.col#promo__mobile--one",
+            "flex-layout.col#promo__mobile--two"
+        ],
+        "props": {
+            "blockClass": "promo__banner--mobile"
+        }
+    },
+    "flex-layout.col#promo__mobile--one": {
+        "title": "imagen de promocion 1",
+        "children": [
+            "image#promo__mobile--one"
+        ],
+        "props": {
+            "blockClass": "icon__mobile--banner"
+        }
+    },
+    "image#promo__mobile--one": {
+        "props": {
+            "src": "assets/img/promo__mobile--image2.webp",
+            "maxHeight": 445,
+            "link": {
+                "url": "/new-page"
+            }
+        }
+    },
+    "flex-layout.col#promo__mobile--two": {
+        "title": "imagen de promocion 1",
+        "children": [
+            "image#promo__mobile--two"
+        ],
+        "props": {
+            "blockClass": "icon__mobile--banner"
+        }
+    },
+    "image#promo__mobile--two": {
+        "props": {
+            "src": "assets/img/promo__mobile--image1.webp",
+            "maxHeight": 445,
+            "link": {
+                "url": "/new-page"
+            }
+        }
+    }
+}

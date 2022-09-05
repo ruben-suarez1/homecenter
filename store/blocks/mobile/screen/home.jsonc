@@ -3,7 +3,19 @@
         "children": [
             "flex-layout.row#banner__mobile--one",
             "list-context.image-list#home__slider--one",
-            "flex-layout.row#home__icon--one"
+            "flex-layout.row#home__icon--one",
+            "flex-layout.row#mobile__promo1--one",
+            "flex-layout.row#mobile__promo1--two",
+            "flex-layout.row#home__shelf--one",
+            "flex-layout.row#home__promo--two",
+            "flex-layout.row#home__shelf--one",
+            "flex-layout.row#home__promo--three",
+            "flex-layout.row#home__promo--four",
+            "rich-text#shelf__title--one",
+            "flex-layout.row#home__promo--five",
+            "rich-text#shelf__title--two",
+            "flex-layout.row#home__icon--four",
+            "flex-layout.row#home__info--one"
         ]
     }
 }

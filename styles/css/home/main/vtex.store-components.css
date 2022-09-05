@@ -1,0 +1,11 @@
+.flex.flex-grow-1.w-100.flex-column {
+  background: var(--primary-color) !important;
+}
+
+@media (max-width: 1024px) { 
+
+    .imageElement {
+      width: 100%;
+    }
+    
+  }

@@ -82,7 +82,7 @@
   "image#promo__four": {
     "props": {
       "src": "assets/img/promo__image4.webp",
-      "maxHeight": 400,
+      "maxHeight": 370,
       "link": {
         "url": "/new-page"
       }
