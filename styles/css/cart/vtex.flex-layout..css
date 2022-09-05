@@ -1,0 +1,7 @@
+.flexRow--container-page {
+    background: var(--primary-color);
+    width: 80%;
+    margin: 1rem auto;
+    padding: 2rem;
+    border-radius: 0.2rem;
+}

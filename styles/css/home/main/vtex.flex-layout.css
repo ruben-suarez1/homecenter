@@ -1,6 +1,15 @@
 .flexRowContent--deals {
   justify-content: space-between;
 }
+
+.flexRowContent--deals--icon {
+  justify-content: space-between;
+}
+
+.flex-column {
+  background: var(--primary-color) !important;
+}
+
 .flexRow--container__main {
     padding-top: 5.5rem;
     background-color: var(--primary-color);
@@ -13,11 +22,28 @@
   padding: 0 !important;
 }
 
+.flexRow--deals--icon {
+  background-color: var(--primary-color) !important;
+  max-width: 80%;
+  margin: 5rem auto 0 ;
+  padding: 0 !important;
+}
+
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
 }
 
+.flexRow--deals--icon .stretchChildrenWidth {
+  align-items: center;
+}
+
 .flexRow--deals .flexCol {
+  align-items: center;
+  margin-bottom: 0.313rem;
+  padding-top: 0.313rem;
+}
+
+.flexRow--deals--icon .flexCol {
   align-items: center;
   margin-bottom: 0.313rem;
   padding-top: 0.313rem;
@@ -63,16 +89,19 @@
   margin-bottom: 0.313rem;
   padding-top: 0.313rem;
 }
+
 .flexRowContent--promo__banner2--mobile{
   width: 80%;
   margin: 0 auto;
   gap: 2rem;
 }
+
 .flexRowContent--promo__banner--three{
   width: 80%;
   margin: 0 auto;
   gap: 1rem;
 }
+
 .flexRowContent--promo__banner--four{
   width: 80%;
   margin: 0 auto;
@@ -104,8 +133,17 @@
     margin: 0 auto;
   }
 
+  .flexRowContent--promo__banner2--mobile{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 95%;
+    margin: 0 auto;
+  }
+
   .imageElement {
     width: 100%;
+    height: 100%;
   }
   .flexRowContent--promo__banner--three {
     width: 95%;
@@ -115,7 +153,34 @@
   .flexRowContent--promo__banner--four {
     width: 95%;
     margin: 0 auto;
+    height: 20rem;
   }
 
+  .flexCol--icon__container {
+    width: 20rem;
+    height: 12rem;
+  }
+
+  .flexRowContent--deals--icon {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-y: hidden;
+  }
+
+  .flexRow--deals--icon {
+    max-width: 95%;
+  }
+  
+  .flexRowContent--information {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-y: hidden;
+  }
+
+  .flexRow--information {
+    max-width: 95%;
+  }
 }
 

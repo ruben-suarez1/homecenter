@@ -49,8 +49,10 @@
       "title": "Logo-cart",
       "href": "/cart-page",
       "url": "assets/icon/cart-icon.svg",
-      "width": "180",
-      "height": "35"
+      "width": 180,
+      "height": 35,
+      "mobileWidth": 30,
+      "mobileHeight": 30
     }
   }
 }

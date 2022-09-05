@@ -8,9 +8,6 @@
       "product-summary-name",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
-      "product-summary-sku-selector",
-      "product-installments#summary",
-      "add-to-list-btn",
       "add-to-cart-button"
     ]
   },

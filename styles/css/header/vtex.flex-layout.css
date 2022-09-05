@@ -1,6 +1,6 @@
 .flexRowContent--main-header {
     background-color: var(--white-color);
-    width: 85%;
+    width: 100%;
     height: 6rem;
     margin: 0 auto;
     justify-content: space-around;
@@ -46,4 +46,8 @@
 .flexRowContent--main-header-mobile {
     height: 3.5rem;
     background: white;
+}
+
+.flexRowContent--main-header:hover {
+ background-color: black;
 }

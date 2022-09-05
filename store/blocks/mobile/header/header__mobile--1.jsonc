@@ -6,9 +6,8 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer",
       "search-bar",
-      "minicart.v2",
+      "flex-layout.col#logo-cart",
       "login"
     ],
     "props": {

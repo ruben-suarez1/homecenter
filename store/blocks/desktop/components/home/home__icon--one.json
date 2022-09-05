@@ -10,7 +10,7 @@
       "flex-layout.col#module__six"
     ],
     "props": {
-      "blockClass": "deals"
+      "blockClass": "deals--icon"
     }
   },
 
@@ -192,7 +192,7 @@
   },
   "image#module__six": {
     "props": {
-      "src": "assets/img/icon__deal2.png",
+      "src": "assets/img/icon__deal6.png",
       "maxHeight": 60,
       "link": {
         "url": "/new-page"
