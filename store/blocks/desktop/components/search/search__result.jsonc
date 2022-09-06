@@ -1,4 +1,4 @@
-{ 
+{
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
@@ -28,7 +28,7 @@
     },
     "children": ["search-title.v2"]
   },
-  
+
   "flex-layout.row#result": {
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
@@ -73,7 +73,7 @@
       "blockClass": "productCountCol"
     }
   },
-  
+
   "flex-layout.row#fetchprevious": {
     "props": {
       "marginBottom": 3
@@ -102,7 +102,7 @@
   "search-content": {
     "blocks": ["gallery", "not-found"]
   },
-  
+
   "breadcrumb": {
     "props": {
       "showOnMobile": true

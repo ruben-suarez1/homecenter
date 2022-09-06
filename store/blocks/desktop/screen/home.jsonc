@@ -4,6 +4,7 @@
       "blockClass": "home-menu"
     },
     "children": [
+      "whatsapp-button",
       "flex-layout.row#home__banner--one",
       "list-context.image-list#home__slider--one",
       "flex-layout.row#home__icon--one",
