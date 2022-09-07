@@ -17,7 +17,7 @@
       "fullWidth": true
     }
   },
-  
+
   "logo#mobile": {
     "props": {
       "title": "Logo",
@@ -32,10 +32,183 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#category-1"
+      "menu-item#mobile__home",
+      "menu-item#mobile__categorias",
+      "menu-item#mobile__servicios",
+      "menu-item#mobile__proyectos",
+      "menu-item#mobile__bogota",
+      "menu-item#mobile__cmr",
+      "menu-item#mobile__venta",
+      "menu-item#mobile__bogotaservicio"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "menu--mobile"
     }
+  },
+
+  "menu-item#mobile__home": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Home",
+        "text": "Home"
+      }
+    },
+    "blocks": [
+
+    ]
+  },
+  "menu-item#mobile__categorias": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Categorías",
+        "text": "Categorías"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#home"
+    ]
+  },
+  "menu-item#mobile__servicios": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "servicios y proyectos",
+        "text": "servicios y proyectos"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#mobile__proyectos": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Proyectos e Inspiración",
+        "text": "Proyectos e Inspiración"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#mobile__bogota": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "bogota d.c.",
+        "text": "bogota d.c."
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#mobile__cmr": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CMR Puntos",
+        "text": "CMR Puntos"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#mobile__venta": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Venta Telefónica 01 8000",
+        "text": "Venta Telefónica 01 8000"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#mobile__bogotaservicio": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Servicio al cliente 320",
+        "text": "Servicio al cliente 320"
+      }
+    },
+    "blocks": [
+    ]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#home": {
+    "children": [
+      "vtex.menu@2.x:menu#home-menu"
+    ]
+  },
+  "vtex.menu@2.x:menu#home-menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-1",
+      "menu-item#category-2",
+      "menu-item#category-3",
+      "menu-item#category-4",
+      "menu-item#category-5"
+    ]
   }
 }
