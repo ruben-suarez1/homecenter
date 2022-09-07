@@ -7,7 +7,7 @@
       "drawer",
       "logo#mobile",
       "search-bar",
-      "flex-layout.col#logo-cart",
+      "flex-layout.col#login-cart",
       "login"
     ],
     "props": {

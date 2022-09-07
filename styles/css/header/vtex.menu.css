@@ -1,3 +1,11 @@
+.styledLinkContainer--menu-item {
+  margin-right: 0.1rem ;
+  margin-left: 0.1rem ;
+}
+.menuItem--menu-slash--isClosed {
+  margin-right: 0.1rem ;
+  margin-left: 0.1rem ;
+}
 .menuContainer--category-menu {
     justify-content: center;
 }
@@ -6,11 +14,29 @@
     padding-top: 1rem;
     font-size: 0.8rem;
 }
+.styledLinkContainer--menu-slash {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  margin: 0 !important;
+}
+.styledLinkContainer--menu-institucional {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  margin: 0 !important;
+}
 .styledLinkContent--more {
     text-transform: uppercase;
 }
 .styledLink--more {
     font-size: 0.8rem;
+}
+.styledLink--menu-item {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+}
+.styledLink--menu-slash {
+  padding: 0.1rem !important;
+  margin: auto !important;
 }
 .styledLinkContent--content-black {
     font-size: 0.8rem;

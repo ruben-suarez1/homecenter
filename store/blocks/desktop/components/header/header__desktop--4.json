@@ -1,5 +1,6 @@
 {
   "flex-layout.row#category-menu": {
+    "title": "Menu del header inferior",
     "props": {
       "verticalAlign": "middle"
     },

@@ -1,5 +1,6 @@
-{    
+{
   "flex-layout.row#2-desktop": {
+    "title": "Menu del header superior",
     "props": {
       "blockClass": "menu-link",
       "horizontalAlign": "center",
@@ -9,24 +10,46 @@
     },
     "children": [
       "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#institutional"
     ]
   },
 
   "vtex.menu@2.x:menu#websites": {
+    "title": "item izquierdos del menu superior",
     "props" : {
       "blockClass": "websites"
     },
     "children": [
       "menu-item#phone",
+      "menu-item#slash",
       "menu-item#service",
+      "menu-item#slash",
       "menu-item#shops",
+      "menu-item#slash",
       "menu-item#price",
+      "menu-item#slash",
       "menu-item#cmr"
     ]
   },
+  "menu-item#slash": {
+    "title": "slash",
+    "props": {
+      "id": "menu-item-slash",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-slash",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "|",
+        "text": "|"
+      }
+    }
+  },
   "menu-item#phone": {
+    "title": "item venta telefonica",
     "props": {
       "id": "menu-item-phone",
       "type": "custom",
@@ -35,7 +58,7 @@
       "blockClass": "menu-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/new-page",
         "noFollow": false,
         "tagTitle": "phone",
         "text": "Venta Telefónica 011000 11 1000"
@@ -43,6 +66,7 @@
     }
   },
   "menu-item#service": {
+    "title": "item servicio al cliente",
     "props": {
       "id": "menu-item-service",
       "type": "custom",
@@ -51,7 +75,7 @@
       "blockClass": "menu-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/new-page",
         "noFollow": false,
         "tagTitle": "service",
         "text": "Servicio al cliente 300 11 000 11"
@@ -59,6 +83,7 @@
     }
   },
   "menu-item#shops": {
+    "title": "item tienda",
     "props": {
       "id": "menu-item-shops",
       "type": "custom",
@@ -67,7 +92,7 @@
       "blockClass": "menu-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/new-page",
         "noFollow": false,
         "tagTitle": "shops",
         "text": "Tiendas"
@@ -75,6 +100,7 @@
     }
   },
   "menu-item#price": {
+    "title": "item precios bajos",
     "props": {
       "id": "menu-item-price",
       "type": "custom",
@@ -83,7 +109,7 @@
       "blockClass": "menu-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/new-page",
         "noFollow": false,
         "tagTitle": "price",
         "text": "Precios bajos"
@@ -91,6 +117,7 @@
     }
   },
   "menu-item#cmr": {
+    "title": "item mundo cmr",
     "props": {
       "id": "menu-item-cmr",
       "type": "custom",
@@ -99,7 +126,7 @@
       "blockClass": "menu-item",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/new-page",
         "noFollow": false,
         "tagTitle": "cmr",
         "text": "Mundo CMR"
@@ -108,22 +135,28 @@
   },
 
   "vtex.menu@2.x:menu#institutional": {
+    "title": "item derechos del header superior",
     "children": [
       "menu-item#falabella",
+      "menu-item#slash",
       "menu-item#bank",
+      "menu-item#slash",
       "menu-item#insurance",
+      "menu-item#slash",
       "menu-item#purchase"
     ]
   },
   "menu-item#falabella": {
+    "title": "item falabella",
     "props": {
       "id": "menu-item-falabella",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-institucional",
       "itemProps": {
         "type": "external",
-        "href": "#",
+        "href": "/new-page",
         "noFollow": false,
         "tagTitle": "falabella",
         "text": "FALLABELLA"
@@ -131,14 +164,16 @@
     }
   },
   "menu-item#bank": {
+    "title": "item banco",
     "props": {
       "id": "menu-item-banco",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-institucional",
       "itemProps": {
         "type": "external",
-        "href": "#",
+        "href": "/new-page",
         "noFollow": false,
         "tagTitle": "banco",
         "text": "BANCO"
@@ -146,14 +181,16 @@
     }
   },
   "menu-item#insurance": {
+    "title": "item seguros",
     "props": {
       "id": "menu-item-seguros",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-institucional",
       "itemProps": {
         "type": "external",
-        "href": "#",
+        "href": "/new-page",
         "noFollow": false,
         "tagTitle": "seguros",
         "text": "SEGUROS"
@@ -161,14 +198,16 @@
     }
   },
   "menu-item#purchase": {
+    "title": "item seguimiento de compra",
     "props": {
       "id": "menu-item-purchase",
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "menu-institucional",
       "itemProps": {
         "type": "external",
-        "href": "#",
+        "href": "/new-page",
         "noFollow": false,
         "tagTitle": "purchase",
         "text": " SEGUIMIENTO DE COMPRA"

@@ -1,12 +1,15 @@
 {
-    
+
   "sticky-layout#3-desktop": {
+    "title": "Menu del header medio",
     "props": {
       "blockClass": "sticky-header"
     },
     "children": ["flex-layout.row#4-desktop"]
   },
+
   "flex-layout.row#4-desktop": {
+    "title": "contenedor menu medio",
     "props": {
       "blockClass": "main-header",
       "horizontalAlign": "center",
@@ -17,38 +20,78 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "search-bar",
-      "flex-layout.col#logo-cart",
-      "login"
+      "flex-layout.col#search-desktop",
+      "flex-layout.col#login-cart"
+
     ]
   },
+
   "flex-layout.col#logo-desktop": {
+    "title": "logo principal",
     "props": {
+      "blockClass": "logo-desktop",
       "verticalAlign": "middle"
     },
     "children": ["logo#desktop"]
   },
   "logo#desktop": {
+    "title": "logo principal",
     "props": {
       "title": "Logo",
+      "blockClass": "logo-desktop",
       "href": "/",
       "url": "assets/logo.png",
-      "width": "180",
-      "height": "35"
+      "width": "200",
+      "height": "30"
     }
   },
 
-  "flex-layout.col#logo-cart": {
+  "flex-layout.col#search-desktop": {
+    "title": "barra de busqueda",
     "props": {
+      "blockClass": "search-desktop",
       "verticalAlign": "middle"
     },
-    "children": ["logo#cart"]
+    "children": [
+      "search-bar"
+    ]
+  },
+
+  "flex-layout.col#login-cart": {
+    "title": "carrito-inicio de sesion",
+    "props": {
+      "blockClass": "login-cart",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "flex-layout.row#icon-cart",
+      "flex-layout.row#icon-login"
+    ]
+  },
+  "flex-layout.row#icon-cart": {
+    "title": "icono de carrito",
+    "props": {
+      "blockClass": "icon-cart"
+    },
+    "children": [
+      "logo#cart"
+    ]
+  },
+  "flex-layout.row#icon-login": {
+    "title": "icono de login",
+    "props": {
+      "blockClass": "icon-login"
+    },
+    "children": [
+      "login"
+    ]
   },
   "logo#cart": {
     "props": {
-      "title": "Logo-cart",
+      "title": "Logo-carrito",
+      "blockClass": "logo-cart",
       "href": "/cart-page",
-      "url": "assets/icon/cart-icon.svg",
+      "url": "assets/cart-icon.svg",
       "width": 180,
       "height": 35,
       "mobileWidth": 30,
