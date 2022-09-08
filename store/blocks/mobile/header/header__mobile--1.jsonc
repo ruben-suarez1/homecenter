@@ -7,8 +7,7 @@
       "drawer",
       "logo#mobile",
       "search-bar",
-      "flex-layout.col#login-cart",
-      "login"
+      "flex-layout.col#login-cart"
     ],
     "props": {
       "blockClass": "main-header-mobile",

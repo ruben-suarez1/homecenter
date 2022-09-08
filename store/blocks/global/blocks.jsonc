@@ -20,18 +20,22 @@
   },
 
   "store.login": {
-    "blocks": ["login-content#default"],
     "props": {
-      "showIconProfile": true
-    }
+      "showIconProfile": true,
+      "blockClass": "logo-login"
+    },
+    "blocks": ["login-content#default"]
   },
 
   "login-content#default": {
     "props": {
-      "accesCodeTitle": "Acess Code LOG-IN",
-      "isInitialScreenOptionOnly": false,
-      "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true
+      "iconLabel": "Mi Cuenta",
+      "accessCodeTitle": "Acess code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "blockClass": "logo-login"
     }
   },
 

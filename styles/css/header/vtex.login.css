@@ -1,0 +1,17 @@
+.profileIcon {
+  width: 30px;
+  height: 35px;
+  color: rgb(22, 21, 21);
+}
+
+.label  {
+  color: black;
+}
+
+@media (max-width: 1024px) {
+  .profileIcon {
+    width: 25px;
+    height: 25px;
+  }
+
+}

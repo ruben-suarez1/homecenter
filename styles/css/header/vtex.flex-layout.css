@@ -55,8 +55,13 @@
 
 .flexRowContent--main-header-mobile {
     height: 3.5rem;
-    background: white;
+    background: white !important;
 }
 
+.flexCol--login-cart {
+  flex-direction: unset;
+    align-items: center;
+}
 
-
+@media (max-width: 1024) {
+}

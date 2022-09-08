@@ -77,15 +77,6 @@
       "logo#cart"
     ]
   },
-  "flex-layout.row#icon-login": {
-    "title": "icono de login",
-    "props": {
-      "blockClass": "icon-login"
-    },
-    "children": [
-      "login"
-    ]
-  },
   "logo#cart": {
     "props": {
       "title": "Logo-carrito",
@@ -96,6 +87,27 @@
       "height": 35,
       "mobileWidth": 30,
       "mobileHeight": 30
+    }
+  },
+
+  "flex-layout.row#icon-login": {
+    "title": "icono de login",
+    "props": {
+      "blockClass": "icon-login"
+    },
+    "children": [
+      "login"
+    ]
+  },
+  "login": {
+    "props": {
+      "iconLabel": "Mi Cuenta",
+      "accessCodeTitle": "Acess code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "blockClass": "logo-login"
     }
   }
 }

@@ -1,99 +1,244 @@
 {
-  "vtex.menu@2.x:menu#footer-mobile": {
+  "flex-layout.row#menu-footer-mobile1": {
     "props": {
+      "blockClass": "footer-mobile1",
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
+      "flex-layout.row#mobile1-text1",
+      "flex-layout.row#mobile1-text2",
+      "flex-layout.row#mobile1-text3",
+      "flex-layout.row#mobile1-text4"
+    ]
+  },
+  "flex-layout.row#mobile1-text1": {
+    "props": {
+      "blockClass": "mobile1-text1",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.col#mobile1-text-1",
+      "flex-layout.col#mobile1-icon"
+    ]
+  },
+  "flex-layout.col#mobile1-text-1": {
+    "props": {
+      "blockClass": "mobile1-text1-text"
+    },
+    "children": [
+      "flex-layout.row#mobile1-text1-icon",
+      "flex-layout.row#mobile1-text1-text"
+    ]
+  },
+  "flex-layout.row#mobile1-text1-icon": {
+    "props": {
+      "blockClass": "mobile1-icon"
+    },
+    "children": [
+      "rich-text#i"
+    ]
+  },
+  "flex-layout.row#mobile1-text1-text": {
+    "children": [
+      "rich-text#mobile1-text1-text"
+    ]
+  },
+  "rich-text#mobile1-text1-text": {
+    "props": {
+      "text": "Te escuchamos / PQRS",
+      "blockClass": "text"
+    }
+  },
+  "rich-text#i": {
+    "props": {
+      "text": "i",
+      "blockClass": "i"
+    }
+  },
+  "flex-layout.col#mobile1-icon": {
+    "props": {
+      "blockClass": "mobile1-icon2"
+    },
+    "children": [
+      "flex-layout.row#mobile1-icon"
+    ]
+  },
+  "flex-layout.row#mobile1-icon": {
+    "props": {
+      "blockClass": "mobile1-icons2"
+    },
+    "children": [
+      "rich-text#i"
     ]
   },
 
-  "menu-item#clothing-mobile": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
-  },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
-  },
 
-  "vtex.menu@2.x:menu#clothing-accordion": {
+  "flex-layout.row#mobile1-text2": {
     "props": {
+      "blockClass": "mobile1-text1",
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#app",
-      "menu-item#apple",
-      "menu-item#google",
-      "social-networks"
+      "flex-layout.col#mobile1-text-2",
+      "flex-layout.col#mobile1-icon2"
     ]
   },
-  "menu-item#decoration-mobile": {
+  "flex-layout.col#mobile1-text-2": {
     "props": {
-      "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
-  },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
-  },
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
-    "props": {
-      "orientation": "vertical"
+      "blockClass": "mobile1-text1-text"
     },
     "children": [
-      "menu-item#more",
-      "menu-item#information",
-      "menu-item#investors",
-      "menu-item#responsibility",
-      "menu-item#work",
-      "menu-item#sell",
-      "menu-item#sodimac",
-      "menu-item#nit"
+      "flex-layout.row#mobile1-text2-icon",
+      "flex-layout.row#mobile1-text2-text"
     ]
   },
-  "menu-item#sale-mobile": {
+  "flex-layout.row#mobile1-text2-icon": {
     "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
+      "blockClass": "mobile1-icon"
     },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+    "children": [
+      "rich-text#i"
+    ]
   },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  "flex-layout.row#mobile1-text2-text": {
+    "children": [
+      "rich-text#mobile1-text2-text"
+    ]
+  },
+  "rich-text#mobile1-text2-text": {
+    "props": {
+      "text": "Métodos de Retiro y Envío",
+      "blockClass": "text"
+    }
+  },
+  "flex-layout.col#mobile1-icon2": {
+    "props": {
+      "blockClass": "mobile1-icon2"
+    },
+    "children": [
+      "flex-layout.row#mobile1-icon2"
+    ]
+  },
+  "flex-layout.row#mobile1-icon2": {
+    "props": {
+      "blockClass": "mobile1-icons2"
+    },
+    "children": [
+      "rich-text#i"
+    ]
   },
 
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
+
+  "flex-layout.row#mobile1-text3": {
     "props": {
+      "blockClass": "mobile1-text1",
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#more",
-      "menu-item#information",
-      "menu-item#investors",
-      "menu-item#responsibility",
-      "menu-item#work",
-      "menu-item#sell",
-      "menu-item#sodimac",
-      "menu-item#nit"
+      "flex-layout.col#mobile1-text-3",
+      "flex-layout.col#mobile1-icon3"
+    ]
+  },
+  "flex-layout.col#mobile1-text-3": {
+    "props": {
+      "blockClass": "mobile1-text1-text"
+    },
+    "children": [
+      "flex-layout.row#mobile1-text3-icon",
+      "flex-layout.row#mobile1-text3-text"
+    ]
+  },
+  "flex-layout.row#mobile1-text3-icon": {
+    "props": {
+      "blockClass": "mobile1-icon"
+    },
+    "children": [
+      "rich-text#i"
+    ]
+  },
+  "flex-layout.row#mobile1-text3-text": {
+    "children": [
+      "rich-text#mobile1-text3-text"
+    ]
+  },
+  "rich-text#mobile1-text3-text": {
+    "props": {
+      "text": "Autogestión de Datos personales",
+      "blockClass": "text"
+    }
+  },
+  "flex-layout.col#mobile1-icon3": {
+    "props": {
+      "blockClass": "mobile1-icon2",
+      "width": 20
+    },
+    "children": [
+      "flex-layout.row#mobile1-icon3"
+    ]
+  },
+  "flex-layout.row#mobile1-icon3": {
+    "props": {
+      "blockClass": "mobile1-icons2"
+    },
+    "children": [
+      "rich-text#i"
+    ]
+  },
+
+
+  "flex-layout.row#mobile1-text4": {
+    "props": {
+      "blockClass": "mobile1-text1",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.col#mobile1-text-4",
+      "flex-layout.col#mobile1-icon4"
+    ]
+  },
+  "flex-layout.col#mobile1-text-4": {
+    "props": {
+      "blockClass": "mobile1-text1-text"
+    },
+    "children": [
+      "flex-layout.row#mobile1-text4-icon",
+      "flex-layout.row#mobile1-text4-text"
+    ]
+  },
+  "flex-layout.row#mobile1-text4-icon": {
+    "props": {
+      "blockClass": "mobile1-icon"
+    },
+    "children": [
+      "rich-text#i"
+    ]
+  },
+  "flex-layout.row#mobile1-text4-text": {
+    "children": [
+      "rich-text#mobile1-text4-text"
+    ]
+  },
+  "rich-text#mobile1-text4-text": {
+    "props": {
+      "text": "Venta telefónica 018000 12 7373",
+      "blockClass": "text"
+    }
+  },
+  "flex-layout.col#mobile1-icon4": {
+    "props": {
+      "blockClass": "mobile1-icon2",
+      "width": 20
+    },
+    "children": [
+      "flex-layout.row#mobile1-icon4"
+    ]
+  },
+  "flex-layout.row#mobile1-icon4": {
+    "props": {
+      "blockClass": "mobile1-icons2"
+    },
+    "children": [
+      "rich-text#i"
     ]
   }
 }
