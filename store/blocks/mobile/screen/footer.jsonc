@@ -1,19 +1,12 @@
 {
     "footer-layout.mobile": {
+      "props": {
+        "blockClass": "footer-mobile"
+      },
         "children": [
             "flex-layout.row#menu-footer-mobile1",
-            "flex-layout.row#icon-footer-mobile2"
-        ]
-    },
-    
-    
-    "flex-layout.row#menu-footer-mobile1": {
-        "props": {
-            "paddingTop": 4,
-            "paddingBottom": 4
-        },
-        "children": [
-            "vtex.menu@2.x:menu#footer-mobile"
+            "flex-layout.row#icon-footer-mobile2",
+            "flex-layout.row#icon-footer-mobile3"
         ]
     },
 
@@ -29,7 +22,6 @@
     },
     "flex-layout.col#footer-1-mobile": {
         "children": [
-            "accepted-payment-methods",
             "social-networks",
             "rich-text#footer-mobile"
         ],
@@ -40,6 +32,29 @@
             "rowGap": 4
         }
     },
+
+    "flex-layout.row#icon-footer-mobile3": {
+      "children": [
+          "flex-layout.col#footer-2-mobile"
+      ],
+      "props": {
+          "blockClass": "payment-methods",
+          "paddingTop": 4,
+          "paddingBottom": 4
+      }
+  },
+  "flex-layout.col#footer-2-mobile": {
+      "children": [
+          "rich-text#footer-mobile"
+      ],
+      "props": {
+          "blockClass": "payment-methods",
+          "paddingTop": 4,
+          "paddingBottom": 4,
+          "rowGap": 4
+      }
+  },
+
     "rich-text#footer-mobile": {
         "props": {
             "text": "Todos los derechos reservados",
