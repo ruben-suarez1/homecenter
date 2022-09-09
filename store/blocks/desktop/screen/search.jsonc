@@ -1,6 +1,8 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"],
+    "blocks": [
+      "search-result-layout"
+    ],
     "props": {
       "blockClass": "search-container",
       "context": {
@@ -9,9 +11,10 @@
       }
     }
   },
-
   "store.search#brand": {
-    "blocks": ["search-result-layout"],
+    "blocks": [
+      "search-result-layout"
+    ],
     "props": {
       "blockClass": "brand",
       "context": {
@@ -23,9 +26,10 @@
       }
     }
   },
-
   "store.search#department": {
-    "blocks": ["search-result-layout"],
+    "blocks": [
+      "search-result-layout"
+    ],
     "props": {
       "blockClass": "department",
       "context": {
@@ -34,9 +38,10 @@
       }
     }
   },
-
   "store.search#category": {
-    "blocks": ["search-result-layout"],
+    "blocks": [
+      "search-result-layout"
+    ],
     "props": {
       "blockClass": "category",
       "context": {
@@ -45,9 +50,10 @@
       }
     }
   },
-
   "store.search#subcategory": {
-    "blocks": ["search-result-layout"],
+    "blocks": [
+      "search-result-layout"
+    ],
     "props": {
       "blockClass": "subcategory",
       "context": {
@@ -56,11 +62,10 @@
       }
     }
   },
-
   "search-result-layout": {
     "props": {
       "blockClass": "result-layout",
-      "fullWidth":false
+      "fullWidth": false
     },
     "blocks": [
       "search-result-layout.desktop",
@@ -68,14 +73,16 @@
       "search-not-found-layout"
     ]
   },
-
-
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#notfound"
+    ]
   },
-
   "flex-layout.row#notfound": {
-    "children": ["not-found"],
+    "children": [
+      "not-found"
+    ],
     "props": {
       "fullWidth": true
     }

@@ -36,7 +36,7 @@
     ]
   },
   "flex-layout.row#summaryListDesktop": {
-    "props":{
+    "props": {
       "fullWidth": true,
       "colSizing": "auto",
       "blockClass": "summaryListDesktop"
@@ -113,7 +113,6 @@
       "add-to-cart-button#buyNow"
     ]
   },
-
   "add-to-cart-button#buyNow": {
     "props": {
       "text": "BUY NOW",
@@ -147,11 +146,12 @@
     "props": {
       "blockClass": "productRating"
     },
-    "children": ["product-rating-inline"]
+    "children": [
+      "product-rating-inline"
+    ]
   },
-
   "flex-layout.row#summaryListMobile": {
-    "props":{
+    "props": {
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
       "blockClass": "summaryListMobile",

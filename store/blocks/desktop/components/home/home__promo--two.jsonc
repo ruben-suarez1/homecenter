@@ -1,14 +1,14 @@
 {
-"flex-layout.row#home__promo--two": {
-  "title": "bloque de promocion 2",
+  "flex-layout.row#home__promo--two": {
+    "title": "bloque de promocion 2",
     "children": [
-        "flex-layout.col#promo2__one",
-        "flex-layout.col#promo2__two",
-        "flex-layout.col#promo2__three"
-      ],
-      "props": {
-        "blockClass": "promo__banner2--mobile"
-      }
+      "flex-layout.col#promo2__one",
+      "flex-layout.col#promo2__two",
+      "flex-layout.col#promo2__three"
+    ],
+    "props": {
+      "blockClass": "promo__banner2--mobile"
+    }
   },
   "flex-layout.col#promo2__one": {
     "title": "imagen de promocion 1",
@@ -28,7 +28,6 @@
       }
     }
   },
-
   "flex-layout.col#promo2__two": {
     "title": "imagen de promocion 2",
     "children": [
@@ -47,7 +46,6 @@
       }
     }
   },
-
   "flex-layout.col#promo2__three": {
     "title": "imagen de promocion 3",
     "children": [

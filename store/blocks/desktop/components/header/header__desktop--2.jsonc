@@ -13,10 +13,9 @@
       "vtex.menu@2.x:menu#institutional"
     ]
   },
-
   "vtex.menu@2.x:menu#websites": {
     "title": "item izquierdos del menu superior",
-    "props" : {
+    "props": {
       "blockClass": "websites"
     },
     "children": [
@@ -133,7 +132,6 @@
       }
     }
   },
-
   "vtex.menu@2.x:menu#institutional": {
     "title": "item derechos del header superior",
     "children": [

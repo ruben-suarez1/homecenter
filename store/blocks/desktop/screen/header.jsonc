@@ -2,7 +2,7 @@
   "header-layout.desktop": {
     "title": "Header Principal",
     "props": {
-    "blockClass": "main-menu"
+      "blockClass": "main-menu"
     },
     "children": [
       "flex-layout.row#2-desktop",
@@ -10,7 +10,6 @@
       "flex-layout.row#category-menu"
     ]
   },
-
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"

@@ -1,215 +1,208 @@
 {
-    "flex-layout.row#home__icon--three": {
-      "title": "bloque de iconos 3",
-      "children": [
-        "flex-layout.col#information__seven",
-        "flex-layout.col#information__eight",
-        "flex-layout.col#information__nine",
-        "flex-layout.col#information__ten",
-        "flex-layout.col#information__eleven",
-        "flex-layout.col#information__twelve"
-      ],
-      "props": {
-        "blockClass": "information"
-      }
-    },
-  
-    "flex-layout.col#information__seven": {
-      "title": "bloque 7",
-      "children": [
-        "image#information__seven",
-        "rich-text#information__seven--title",
-        "rich-text#information__seven--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__seven": {
-      "props": {
-        "src": "assets/img/icon__information--7.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__seven--title": {
-      "props": {
-        "text": "Muebles Cumpleaños",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__seven--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta 50%**",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#information__eight": {
-      "title": "bloque 8",
-      "children": [
-        "image#information__eight",
-        "rich-text#information__eight--title",
-        "rich-text#information__eight--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__eight": {
-      "props": {
-        "src": "assets/img/icon__information--8.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__eight--title": {
-      "props": {
-        "text": "Baños y Cocinas",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__eight--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta 23%**",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#information__nine": {
-      "title": "bloque 9",
-      "children": [
-        "image#information__nine",
-        "rich-text#information__nine--title",
-        "rich-text#information__nine--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__nine": {
-      "props": {
-        "src": "assets/img/icon__information--9.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__nine--title": {
-      "props": {
-        "text": "Tecnología y más",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__nine--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta 40%**",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#information__ten": {
-      "title": "bloque 10",
-      "children": [
-        "image#information__ten",
-        "rich-text#information__ten--title",
-        "rich-text#information__ten--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__ten": {
-      "props": {
-        "src": "assets/img/icon__information--10.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__ten--title": {
-      "props": {
-        "text": "Decoración,\niluminación,Vajillas y Ollas",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__ten--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta 40%**",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#information__eleven": {
-      "title": "bloque 11",
-      "children": [
-        "image#information__eleven",
-        "rich-text#information__eleven--title",
-        "rich-text#information__eleven--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__eleven": {
-      "props": {
-        "src": "assets/img/icon__information--11.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__eleven--title": {
-      "props": {
-        "text": "Aseo y organización",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__eleven--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta 40%**",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#information__twelve": {
-      "title": "bloque 12",
-      "children": [
-        "image#information__twelve",
-        "rich-text#information__twelve--title",
-        "rich-text#information__twelve--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__twelve": {
-      "props": {
-        "src": "assets/img/icon__information--12.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__twelve--title": {
-      "props": {
-        "text": "Cumpleaños Homecenter",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__twelve--paragraph": {
-      "props": {
-        "text": "**Ofertas Cumpleaños**",
-        "blockClass": "deals"
+  "flex-layout.row#home__icon--three": {
+    "title": "bloque de iconos 3",
+    "children": [
+      "flex-layout.col#information__seven",
+      "flex-layout.col#information__eight",
+      "flex-layout.col#information__nine",
+      "flex-layout.col#information__ten",
+      "flex-layout.col#information__eleven",
+      "flex-layout.col#information__twelve"
+    ],
+    "props": {
+      "blockClass": "information"
+    }
+  },
+  "flex-layout.col#information__seven": {
+    "title": "bloque 7",
+    "children": [
+      "image#information__seven",
+      "rich-text#information__seven--title",
+      "rich-text#information__seven--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__seven": {
+    "props": {
+      "src": "assets/img/icon__information--7.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
       }
     }
+  },
+  "rich-text#information__seven--title": {
+    "props": {
+      "text": "Muebles Cumpleaños",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__seven--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta 50%**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#information__eight": {
+    "title": "bloque 8",
+    "children": [
+      "image#information__eight",
+      "rich-text#information__eight--title",
+      "rich-text#information__eight--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__eight": {
+    "props": {
+      "src": "assets/img/icon__information--8.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information__eight--title": {
+    "props": {
+      "text": "Baños y Cocinas",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__eight--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta 23%**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#information__nine": {
+    "title": "bloque 9",
+    "children": [
+      "image#information__nine",
+      "rich-text#information__nine--title",
+      "rich-text#information__nine--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__nine": {
+    "props": {
+      "src": "assets/img/icon__information--9.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information__nine--title": {
+    "props": {
+      "text": "Tecnología y más",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__nine--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta 40%**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#information__ten": {
+    "title": "bloque 10",
+    "children": [
+      "image#information__ten",
+      "rich-text#information__ten--title",
+      "rich-text#information__ten--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__ten": {
+    "props": {
+      "src": "assets/img/icon__information--10.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information__ten--title": {
+    "props": {
+      "text": "Decoración,\niluminación,Vajillas y Ollas",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__ten--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta 40%**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#information__eleven": {
+    "title": "bloque 11",
+    "children": [
+      "image#information__eleven",
+      "rich-text#information__eleven--title",
+      "rich-text#information__eleven--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__eleven": {
+    "props": {
+      "src": "assets/img/icon__information--11.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information__eleven--title": {
+    "props": {
+      "text": "Aseo y organización",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__eleven--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta 40%**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#information__twelve": {
+    "title": "bloque 12",
+    "children": [
+      "image#information__twelve",
+      "rich-text#information__twelve--title",
+      "rich-text#information__twelve--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__twelve": {
+    "props": {
+      "src": "assets/img/icon__information--12.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information__twelve--title": {
+    "props": {
+      "text": "Cumpleaños Homecenter",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__twelve--paragraph": {
+    "props": {
+      "text": "**Ofertas Cumpleaños**",
+      "blockClass": "deals"
+    }
   }
-  
+}

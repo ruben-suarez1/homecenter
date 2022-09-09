@@ -1,13 +1,13 @@
 {
-
   "sticky-layout#3-desktop": {
     "title": "Menu del header medio",
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": [
+      "flex-layout.row#4-desktop"
+    ]
   },
-
   "flex-layout.row#4-desktop": {
     "title": "contenedor menu medio",
     "props": {
@@ -22,17 +22,17 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-desktop",
       "flex-layout.col#login-cart"
-
     ]
   },
-
   "flex-layout.col#logo-desktop": {
     "title": "logo principal",
     "props": {
       "blockClass": "logo-desktop",
       "verticalAlign": "middle"
     },
-    "children": ["logo#desktop"]
+    "children": [
+      "logo#desktop"
+    ]
   },
   "logo#desktop": {
     "title": "logo principal",
@@ -45,7 +45,6 @@
       "height": "30"
     }
   },
-
   "flex-layout.col#search-desktop": {
     "title": "barra de busqueda",
     "props": {
@@ -56,7 +55,6 @@
       "search-bar"
     ]
   },
-
   "flex-layout.col#login-cart": {
     "title": "carrito-inicio de sesion",
     "props": {
@@ -89,7 +87,6 @@
       "mobileHeight": 30
     }
   },
-
   "flex-layout.row#icon-login": {
     "title": "icono de login",
     "props": {

@@ -2,17 +2,15 @@
   "flex-layout.row#home__promo--one": {
     "title": "bloque de promocion 1",
     "children": [
-        "flex-layout.col#promo__one",
-        "flex-layout.col#promo__two",
-        "flex-layout.col#promo__three",
-        "flex-layout.col#promo__four"
-
-      ],
-      "props": {
-        "blockClass": "promo__banner"
-      }
+      "flex-layout.col#promo__one",
+      "flex-layout.col#promo__two",
+      "flex-layout.col#promo__three",
+      "flex-layout.col#promo__four"
+    ],
+    "props": {
+      "blockClass": "promo__banner"
+    }
   },
-
   "flex-layout.col#promo__one": {
     "title": "imagen de promocion 1",
     "children": [
@@ -31,7 +29,6 @@
       }
     }
   },
-
   "flex-layout.col#promo__two": {
     "title": "imagen de promocion 1",
     "children": [
@@ -50,7 +47,6 @@
       }
     }
   },
-
   "flex-layout.col#promo__three": {
     "title": "imagen de promocion 1",
     "children": [
@@ -66,10 +62,9 @@
       "maxHeight": 370,
       "link": {
         "url": "/new-page"
-      } 
+      }
     }
   },
-
   "flex-layout.col#promo__four": {
     "title": "imagen de promocion 1",
     "children": [

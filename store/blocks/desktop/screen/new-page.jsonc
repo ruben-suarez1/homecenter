@@ -1,17 +1,17 @@
 {
-    "store.custom#new-page": {
-      "title": "Pagina custom nueva",
-        "blocks": [
-          "rich-text#page",
-          "rich-text#texto"
-      ]
-    },
-    "rich-text#page": {
-      "props": {
-        "textAlignment": "CENTER",
-        "textPosition": "CENTER",
-        "text": "**NEW PAGE**",
-        "font": "t-heading-1"
-      }
+  "store.custom#new-page": {
+    "title": "Pagina custom nueva",
+    "blocks": [
+      "rich-text#page",
+      "rich-text#texto"
+    ]
+  },
+  "rich-text#page": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**NEW PAGE**",
+      "font": "t-heading-1"
     }
   }
+}

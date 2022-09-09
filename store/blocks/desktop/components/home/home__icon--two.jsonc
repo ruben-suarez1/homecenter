@@ -1,217 +1,209 @@
 {
-    "flex-layout.row#home__icon--two": {
-      "title": "bloque de iconos 2",
-      "children": [
-        "flex-layout.col#information2__one",
-        "flex-layout.col#information2__two",
-        "flex-layout.col#information2__three",
-        "flex-layout.col#information2__four",
-        "flex-layout.col#information2__five",
-        "flex-layout.col#information2__six"
-      ],
-      "props": {
-        "blockClass": "information"
-      }
-    },
-  
-    "flex-layout.col#information2__one": {
-      "title": "bloque 1",
-      "children": [
-        "image#information__one",
-        "rich-text#information__one--title",
-        "rich-text#information__one--paragraph"
-      ],
-      "props": {
-        
-        "href": "/",
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__one": {
-      "props": {
-        "src": "assets/img/icon__information--1.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__one--title": {
-      "props": {
-        "text": "Electro Hogar",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__one--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta 47%**",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#information2__two": {
-      "title": "bloque 2",
-      "children": [
-        "image#information__two",
-        "rich-text#information__two--title",
-        "rich-text#information__two--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__two": {
-      "props": {
-        "src": "assets/img/icon__information--2.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__two--title": {
-      "props": {
-        "text": "Herramientas y Ferretería",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__two--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta 30%**",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#information2__three": {
-      "title": "bloque 3",
-      "children": [
-        "image#information__three",
-        "rich-text#information__three--title",
-        "rich-text#information__three--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__three": {
-      "props": {
-        "src": "assets/img/icon__information--3.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__three--title": {
-      "props": {
-        "text": "Aire libre y Mascotas",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__three--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta 40%**",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#information2__four": {
-      "title": "bloque 4",
-      "children": [
-        "image#information__four",
-        "rich-text#information__four--title",
-        "rich-text#information__four--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__four": {
-      "props": {
-        "src": "assets/img/icon__information--4.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__four--title": {
-      "props": {
-        "text": "Pisos y Pinturas",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__four--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta 20%**",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#information2__five": {
-      "title": "bloque 5",
-      "children": [
-        "image#information__five",
-        "rich-text#information__five--title",
-        "rich-text#information__five--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__five": {
-      "props": {
-        "src": "assets/img/icon__information--5.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__five--title": {
-      "props": {
-        "text": "Automóviles y más",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__five--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta 33%**",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#information2__six": {
-      "title": "bloque 6",
-      "children": [
-        "image#information__six",
-        "rich-text#information__six--title",
-        "rich-text#information__six--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information__six": {
-      "props": {
-        "src": "assets/img/icon__information--6.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information__six--title": {
-      "props": {
-        "text": "Puertas y construcción",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information__six--paragraph": {
-      "props": {
-        "text": "**Ahorra hasta $300.000**",
-        "blockClass": "deals"
+  "flex-layout.row#home__icon--two": {
+    "title": "bloque de iconos 2",
+    "children": [
+      "flex-layout.col#information2__one",
+      "flex-layout.col#information2__two",
+      "flex-layout.col#information2__three",
+      "flex-layout.col#information2__four",
+      "flex-layout.col#information2__five",
+      "flex-layout.col#information2__six"
+    ],
+    "props": {
+      "blockClass": "information"
+    }
+  },
+  "flex-layout.col#information2__one": {
+    "title": "bloque 1",
+    "children": [
+      "image#information__one",
+      "rich-text#information__one--title",
+      "rich-text#information__one--paragraph"
+    ],
+    "props": {
+      "href": "/",
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__one": {
+    "props": {
+      "src": "assets/img/icon__information--1.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
       }
     }
+  },
+  "rich-text#information__one--title": {
+    "props": {
+      "text": "Electro Hogar",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__one--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta 47%**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#information2__two": {
+    "title": "bloque 2",
+    "children": [
+      "image#information__two",
+      "rich-text#information__two--title",
+      "rich-text#information__two--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__two": {
+    "props": {
+      "src": "assets/img/icon__information--2.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information__two--title": {
+    "props": {
+      "text": "Herramientas y Ferretería",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__two--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta 30%**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#information2__three": {
+    "title": "bloque 3",
+    "children": [
+      "image#information__three",
+      "rich-text#information__three--title",
+      "rich-text#information__three--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__three": {
+    "props": {
+      "src": "assets/img/icon__information--3.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information__three--title": {
+    "props": {
+      "text": "Aire libre y Mascotas",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__three--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta 40%**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#information2__four": {
+    "title": "bloque 4",
+    "children": [
+      "image#information__four",
+      "rich-text#information__four--title",
+      "rich-text#information__four--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__four": {
+    "props": {
+      "src": "assets/img/icon__information--4.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information__four--title": {
+    "props": {
+      "text": "Pisos y Pinturas",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__four--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta 20%**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#information2__five": {
+    "title": "bloque 5",
+    "children": [
+      "image#information__five",
+      "rich-text#information__five--title",
+      "rich-text#information__five--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__five": {
+    "props": {
+      "src": "assets/img/icon__information--5.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information__five--title": {
+    "props": {
+      "text": "Automóviles y más",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__five--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta 33%**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#information2__six": {
+    "title": "bloque 6",
+    "children": [
+      "image#information__six",
+      "rich-text#information__six--title",
+      "rich-text#information__six--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information__six": {
+    "props": {
+      "src": "assets/img/icon__information--6.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information__six--title": {
+    "props": {
+      "text": "Puertas y construcción",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information__six--paragraph": {
+    "props": {
+      "text": "**Ahorra hasta $300.000**",
+      "blockClass": "deals"
+    }
   }
-  
+}

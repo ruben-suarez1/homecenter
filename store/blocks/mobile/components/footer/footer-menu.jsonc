@@ -12,7 +12,6 @@
       "flex-layout.row#mobile1-text4"
     ]
   },
-
   "flex-layout.row#mobile1-text1": {
     "props": {
       "blockClass": "mobile1-text1",
@@ -43,7 +42,6 @@
       "blockClass": "text"
     }
   },
-
   "flex-layout.row#mobile1-text2": {
     "props": {
       "blockClass": "mobile1-text1",
@@ -74,8 +72,6 @@
       "blockClass": "text"
     }
   },
-
-
   "flex-layout.row#mobile1-text3": {
     "props": {
       "blockClass": "mobile1-text1",
@@ -106,8 +102,6 @@
       "blockClass": "text"
     }
   },
-
-
   "flex-layout.row#mobile1-text4": {
     "props": {
       "blockClass": "mobile1-text1",
@@ -138,7 +132,6 @@
       "blockClass": "text"
     }
   },
-
   "image#flecha": {
     "props": {
       "blockClass": "icon-flecha",

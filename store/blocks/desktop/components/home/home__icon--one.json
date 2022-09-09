@@ -13,7 +13,6 @@
       "blockClass": "deals--icon"
     }
   },
-
   "flex-layout.col#module__one": {
     "title": "bloque 1",
     "children": [
@@ -46,7 +45,6 @@
       "blockClass": "deals"
     }
   },
-
   "flex-layout.col#module__two": {
     "title": "bloque 2",
     "children": [
@@ -79,7 +77,6 @@
       "blockClass": "deals"
     }
   },
-
   "flex-layout.col#module__three": {
     "title": "bloque 3",
     "children": [
@@ -112,7 +109,6 @@
       "blockClass": "deals"
     }
   },
-
   "flex-layout.col#module__four": {
     "title": "bloque 4",
     "children": [
@@ -145,7 +141,6 @@
       "blockClass": "deals"
     }
   },
-
   "flex-layout.col#module__five": {
     "title": "bloque 5",
     "children": [
@@ -178,7 +173,6 @@
       "blockClass": "deals"
     }
   },
-
   "flex-layout.col#module__six": {
     "title": "bloque 6",
     "children": [

@@ -1,9 +1,9 @@
 {
-    "rich-text#shelf__title--two": {
-      "title": "bloque titulo 2",
-      "props": {
-        "text": "## Servicios e Información",
-        "blockClass": "shelfTitle"
-      }
+  "rich-text#shelf__title--two": {
+    "title": "bloque titulo 2",
+    "props": {
+      "text": "## Servicios e Información",
+      "blockClass": "shelfTitle"
     }
   }
+}

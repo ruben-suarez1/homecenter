@@ -1,217 +1,209 @@
 {
-    "flex-layout.row#home__icon--four": {
-      "title": "bloque de iconos 4",
-      "children": [
-        "flex-layout.col#icon4__one",
-        "flex-layout.col#icon4__two",
-        "flex-layout.col#icon4__three",
-        "flex-layout.col#icon4__four",
-        "flex-layout.col#icon4__five",
-        "flex-layout.col#icon4__six"
-      ],
-      "props": {
-        "blockClass": "information"
-      }
-    },
-  
-    "flex-layout.col#icon4__one": {
-      "title": "bloque 1",
-      "children": [
-        "image#information4__one",
-        "rich-text#information4__one--title",
-        "rich-text#information4__one--paragraph"
-      ],
-      "props": {
-        
-        "href": "/",
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information4__one": {
-      "props": {
-        "src": "assets/img/icon4__1.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information4__one--title": {
-      "props": {
-        "text": "Nuestras tiendas",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information4__one--paragraph": {
-      "props": {
-        "text": "Consulta ubicaciones y horarios",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#icon4__two": {
-      "title": "bloque 2",
-      "children": [
-        "image#information4__two",
-        "rich-text#information4__two--title",
-        "rich-text#information4__two--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information4__two": {
-      "props": {
-        "src": "assets/img/icon4__2.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information4__two--title": {
-      "props": {
-        "text": "Retiros y Despachos",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information4__two--paragraph": {
-      "props": {
-        "text": "Consulta opciones de Retiro y Envío aquí",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#icon4__three": {
-      "title": "bloque 3",
-      "children": [
-        "image#information4__three",
-        "rich-text#information4__three--title",
-        "rich-text#information4__three--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information4__three": {
-      "props": {
-        "src": "assets/img/icon4__3.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information4__three--title": {
-      "props": {
-        "text": "Agiliza tus Devoluciones",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information4__three--paragraph": {
-      "props": {
-        "text": "Inicia el proceso aquí",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#icon4__four": {
-      "title": "bloque 4",
-      "children": [
-        "image#information4__four",
-        "rich-text#information4__four--title",
-        "rich-text#information4__four--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information4__four": {
-      "props": {
-        "src": "assets/img/icon4__4.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information4__four--title": {
-      "props": {
-        "text": "Autogestión de Datos personales",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information4__four--paragraph": {
-      "props": {
-        "text": "Registra, actualiza o administra tus datos personales aquí",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#icon4__five": {
-      "title": "bloque 5",
-      "children": [
-        "image#information4__five",
-        "rich-text#information4__five--title",
-        "rich-text#information4__five--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information4__five": {
-      "props": {
-        "src": "assets/img/icon4__5.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information4__five--title": {
-      "props": {
-        "text": "Agenda una Asesoría",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information4__five--paragraph": {
-      "props": {
-        "text": "Asesorías en remodelación para Baño y Cocina",
-        "blockClass": "deals"
-      }
-    },
-  
-    "flex-layout.col#icon4__six": {
-      "title": "bloque 6",
-      "children": [
-        "image#information4__six",
-        "rich-text#information4__six--title",
-        "rich-text#information4__six--paragraph"
-      ],
-      "props": {
-        "blockClass": "icon__container"
-      }
-    },
-    "image#information4__six": {
-      "props": {
-        "src": "assets/img/icon4__6.png",
-        "maxHeight": 64,
-        "link": {
-          "url": "/new-page"
-        }
-      }
-    },
-    "rich-text#information4__six--title": {
-      "props": {
-        "text": "Venta Telefónica",
-        "blockClass": "deals__title"
-      }
-    },
-    "rich-text#information4__six--paragraph": {
-      "props": {
-        "text": "L-V: 7:00 a.m - 9:00 p.m\nS: 8:00 a.m – 7:00 p.m\nD-F: 8:00 a.m - 5:00 p.m",
-        "blockClass": "deals"
+  "flex-layout.row#home__icon--four": {
+    "title": "bloque de iconos 4",
+    "children": [
+      "flex-layout.col#icon4__one",
+      "flex-layout.col#icon4__two",
+      "flex-layout.col#icon4__three",
+      "flex-layout.col#icon4__four",
+      "flex-layout.col#icon4__five",
+      "flex-layout.col#icon4__six"
+    ],
+    "props": {
+      "blockClass": "information"
+    }
+  },
+  "flex-layout.col#icon4__one": {
+    "title": "bloque 1",
+    "children": [
+      "image#information4__one",
+      "rich-text#information4__one--title",
+      "rich-text#information4__one--paragraph"
+    ],
+    "props": {
+      "href": "/",
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information4__one": {
+    "props": {
+      "src": "assets/img/icon4__1.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
       }
     }
+  },
+  "rich-text#information4__one--title": {
+    "props": {
+      "text": "Nuestras tiendas",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information4__one--paragraph": {
+    "props": {
+      "text": "Consulta ubicaciones y horarios",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#icon4__two": {
+    "title": "bloque 2",
+    "children": [
+      "image#information4__two",
+      "rich-text#information4__two--title",
+      "rich-text#information4__two--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information4__two": {
+    "props": {
+      "src": "assets/img/icon4__2.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information4__two--title": {
+    "props": {
+      "text": "Retiros y Despachos",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information4__two--paragraph": {
+    "props": {
+      "text": "Consulta opciones de Retiro y Envío aquí",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#icon4__three": {
+    "title": "bloque 3",
+    "children": [
+      "image#information4__three",
+      "rich-text#information4__three--title",
+      "rich-text#information4__three--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information4__three": {
+    "props": {
+      "src": "assets/img/icon4__3.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information4__three--title": {
+    "props": {
+      "text": "Agiliza tus Devoluciones",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information4__three--paragraph": {
+    "props": {
+      "text": "Inicia el proceso aquí",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#icon4__four": {
+    "title": "bloque 4",
+    "children": [
+      "image#information4__four",
+      "rich-text#information4__four--title",
+      "rich-text#information4__four--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information4__four": {
+    "props": {
+      "src": "assets/img/icon4__4.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information4__four--title": {
+    "props": {
+      "text": "Autogestión de Datos personales",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information4__four--paragraph": {
+    "props": {
+      "text": "Registra, actualiza o administra tus datos personales aquí",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#icon4__five": {
+    "title": "bloque 5",
+    "children": [
+      "image#information4__five",
+      "rich-text#information4__five--title",
+      "rich-text#information4__five--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information4__five": {
+    "props": {
+      "src": "assets/img/icon4__5.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information4__five--title": {
+    "props": {
+      "text": "Agenda una Asesoría",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information4__five--paragraph": {
+    "props": {
+      "text": "Asesorías en remodelación para Baño y Cocina",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#icon4__six": {
+    "title": "bloque 6",
+    "children": [
+      "image#information4__six",
+      "rich-text#information4__six--title",
+      "rich-text#information4__six--paragraph"
+    ],
+    "props": {
+      "blockClass": "icon__container"
+    }
+  },
+  "image#information4__six": {
+    "props": {
+      "src": "assets/img/icon4__6.png",
+      "maxHeight": 64,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "rich-text#information4__six--title": {
+    "props": {
+      "text": "Venta Telefónica",
+      "blockClass": "deals__title"
+    }
+  },
+  "rich-text#information4__six--paragraph": {
+    "props": {
+      "text": "L-V: 7:00 a.m - 9:00 p.m\nS: 8:00 a.m – 7:00 p.m\nD-F: 8:00 a.m - 5:00 p.m",
+      "blockClass": "deals"
+    }
   }
-  
+}
