@@ -1,5 +1,6 @@
 {
     "responsive-layout.mobile": {
+      "title": "home mobile principal",
         "children": [
             "flex-layout.row#banner__mobile--one",
             "list-context.image-list#home__slider--one",

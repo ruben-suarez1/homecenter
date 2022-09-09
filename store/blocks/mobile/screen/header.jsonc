@@ -1,5 +1,6 @@
 {
     "header-layout.mobile": {
+      "title": "heacer mobile principal",
         "props": {
             "blockclass": "header-mobile"
         },

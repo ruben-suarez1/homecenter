@@ -1,7 +1,9 @@
 {
   "store.custom#contact-us": {
+    "title": "Pagina custom de contacto",
       "blocks": [
-        "rich-text#contact"
+        "rich-text#contact",
+        "rich-text#texto"
     ]
   },
   "rich-text#contact": {

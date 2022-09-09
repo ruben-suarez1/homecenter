@@ -150,12 +150,10 @@
   .flexRowContent--promo__banner--three {
     width: 95%;
     margin: 0 auto;
-    padding-top: 1rem;
   }
   .flexRowContent--promo__banner--four {
     width: 95%;
     margin: 0 auto;
-    height: 20rem;
   }
 
   .flexCol--icon__container {
@@ -172,6 +170,7 @@
 
   .flexRow--deals--icon {
     max-width: 95%;
+    margin-top: 1rem;
   }
 
   .flexRowContent--information {
@@ -183,6 +182,18 @@
 
   .flexRow--information {
     max-width: 95%;
+    padding-top: 1rem;
+  }
+
+  .flexRowContent--promo__banner--mobile {
+    padding-top: 1rem;
+  }
+  .flexCol--icon__banner1 {
+    padding-bottom: 1rem;
+  }
+
+  .flexColChild--icon__banner {
+    height: 100px !important;
   }
 }
 

@@ -1,5 +1,6 @@
 {
   "header-layout.desktop": {
+    "title": "Header Principal",
     "props": {
     "blockClass": "main-menu"
     },

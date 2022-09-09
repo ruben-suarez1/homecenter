@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop": {
+    "title": "Home Principal",
     "props": {
       "blockClass": "home-menu"
     },

@@ -1,5 +1,6 @@
 {
   "store.custom#faq": {
+    "title": "Pafina custom de faq",
     "children": [
       "flex-layout.row#faq"
     ]

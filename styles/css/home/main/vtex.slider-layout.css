@@ -1,3 +1,7 @@
 .sliderTrackContainer--shelf {
   height: 22rem;
 }
+.sliderLayoutContainer--shelf {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

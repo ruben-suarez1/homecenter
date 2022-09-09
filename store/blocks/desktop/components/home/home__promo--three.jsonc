@@ -1,7 +1,7 @@
 {
     "flex-layout.row#home__promo--three": {
         "title": "bloque de promocion 3",
-        "children": [ 
+        "children": [
             "flex-layout.col#grids__one",
             "flex-layout.col#grids__two"
         ],
@@ -15,7 +15,7 @@
             "image#grids__one"
         ],
         "props": {
-            "blockClass": "icon__banner"
+            "blockClass": "icon__banner1"
         }
     },
     "image#grids__one": {
@@ -33,7 +33,7 @@
             "image#grids__two"
         ],
         "props": {
-            "blockClass": "icon__banner"
+            "blockClass": "icon__banner1"
         }
     },
     "image#grids__two": {

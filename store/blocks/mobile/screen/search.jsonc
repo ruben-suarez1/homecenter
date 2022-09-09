@@ -1,6 +1,7 @@
 {
 
   "search-result-layout.mobile": {
+    "title": "search mobile principal",
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",

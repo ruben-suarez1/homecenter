@@ -16,7 +16,7 @@
       "image#promo2__one"
     ],
     "props": {
-      "blockClass": "icon__banner"
+      "blockClass": "icon__banner2"
     }
   },
   "image#promo2__one": {
@@ -35,7 +35,7 @@
       "image#promo2__two"
     ],
     "props": {
-      "blockClass": "icon__banner"
+      "blockClass": "icon__banner2"
     }
   },
   "image#promo2__two": {
@@ -54,7 +54,7 @@
       "image#promo2__three"
     ],
     "props": {
-      "blockClass": "icon__banner"
+      "blockClass": "icon__banner2"
     }
   },
   "image#promo2__three": {

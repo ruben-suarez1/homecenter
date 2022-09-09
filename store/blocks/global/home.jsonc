@@ -4,5 +4,14 @@
             "responsive-layout.desktop",
             "responsive-layout.mobile"
         ]
+    },
+    "rich-text#texto": {
+      "title": "texto de redireccionamiento",
+      "props": {
+        "text": "Pagina de redireccionamiento",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-3"
+      }
     }
 }

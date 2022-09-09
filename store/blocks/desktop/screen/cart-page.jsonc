@@ -1,5 +1,6 @@
 {
     "store.custom#cart-page": {
+      "title": "Pafina custom de carrito",
         "blocks": [
           "flex-layout.row#container"
         ]
@@ -33,7 +34,7 @@
           "finishShoppingButtonLink": "/checkout/#/orderform"
       }
     },
-    
+
       "checkout-summary.compact#minicart": {
         "children": ["summary-totalizers#minicart"],
         "props": {

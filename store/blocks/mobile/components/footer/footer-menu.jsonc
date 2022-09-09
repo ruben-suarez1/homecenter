@@ -1,5 +1,6 @@
 {
   "flex-layout.row#menu-footer-mobile1": {
+    "title": "footer mobile 1",
     "props": {
       "blockClass": "footer-mobile1",
       "orientation": "vertical"
@@ -20,7 +21,7 @@
     "children": [
       "icon#fecha",
       "flex-layout.col#mobile1-text-1",
-      "icon#flecha"
+      "image#flecha"
     ]
   },
   "flex-layout.col#mobile1-text-1": {
@@ -51,7 +52,7 @@
     "children": [
       "icon#ubicacion",
       "flex-layout.col#mobile1-text-2",
-      "icon#flecha"
+      "image#flecha"
     ]
   },
   "flex-layout.col#mobile1-text-2": {
@@ -83,7 +84,7 @@
     "children": [
       "icon#busqueda",
       "flex-layout.col#mobile1-text-3",
-      "icon#flecha"
+      "image#flecha"
     ]
   },
   "flex-layout.col#mobile1-text-3": {
@@ -115,7 +116,7 @@
     "children": [
       "icon#telefono",
       "flex-layout.col#mobile1-text-4",
-      "icon#flecha"
+      "image#flecha"
     ]
   },
   "flex-layout.col#mobile1-text-4": {
@@ -138,12 +139,15 @@
     }
   },
 
-  "icon#flecha": {
-    "title": "logo flecha",
+  "image#flecha": {
     "props": {
-      "id": "nav-caret--right",
-      "width": "30",
-      "height": "30"
+      "blockClass": "icon-flecha",
+      "src": "assets/proximo.png",
+      "maxHeight": 30,
+      "maxWidth": 30,
+      "link": {
+        "url": "/faq"
+      }
     }
   },
   "icon#telefono": {

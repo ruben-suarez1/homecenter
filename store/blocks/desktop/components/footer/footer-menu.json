@@ -1,12 +1,12 @@
 {
-  
   "flex-layout.row#footer-menu": {
+    "title": "columas de informacion",
     "children": [
       "vtex.menu@2.x:menu#Products",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
       "vtex.menu@2.x:menu#footer-clothing"
-      
+
     ],
     "props": {
       "blockClass": "menu-row",
@@ -14,8 +14,9 @@
       "paddingBottom": 3
     }
   },
-  
+
   "vtex.menu@2.x:menu#Products": {
+    "title": "columna 1",
     "props": {
       "orientation": "vertical"
     },
@@ -170,6 +171,7 @@
 
 
   "vtex.menu@2.x:menu#footer-decoration": {
+    "title": "columna 2",
     "props": {
       "orientation": "vertical"
     },
@@ -226,7 +228,7 @@
       }
     }
   },
-  "menu-item#mypassword": { 
+  "menu-item#mypassword": {
     "props": {
       "id": "menu-item-mypassword",
       "type": "custom",
@@ -243,6 +245,7 @@
   },
 
   "vtex.menu@2.x:menu#footer-bags": {
+    "title": "columna 3",
     "props": {
       "orientation": "vertical"
     },
@@ -380,6 +383,7 @@
   },
 
   "vtex.menu@2.x:menu#footer-clothing": {
+    "title": "columna 4",
     "props": {
       "orientation": "vertical"
     },

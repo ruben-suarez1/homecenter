@@ -1,7 +1,9 @@
 {
     "store.custom#new-page": {
+      "title": "Pagina custom nueva",
         "blocks": [
-          "rich-text#page"
+          "rich-text#page",
+          "rich-text#texto"
       ]
     },
     "rich-text#page": {
@@ -13,4 +15,3 @@
       }
     }
   }
-  

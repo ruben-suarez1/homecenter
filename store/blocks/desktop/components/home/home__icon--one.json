@@ -30,7 +30,7 @@
       "src": "assets/img/icon__deal1.png",
       "maxHeight": 60,
       "link": {
-        "url": "/new-page"
+        "url": "/contact-us"
       }
     }
   },
@@ -63,7 +63,7 @@
       "src": "assets/img/icon__deal2.png",
       "maxHeight": 60,
       "link": {
-        "url": "/new-page"
+        "url": "/contact-us"
       }
     }
   },
@@ -96,7 +96,7 @@
       "src": "assets/img/icon__deal3.png",
       "maxHeight": 60,
       "link": {
-        "url": "/new-page"
+        "url": "/contact-us"
       }
     }
   },
@@ -129,7 +129,7 @@
       "src": "assets/img/icon__deal4.png",
       "maxHeight": 60,
       "link": {
-        "url": "/new-page"
+        "url": "/contact-us"
       }
     }
   },
