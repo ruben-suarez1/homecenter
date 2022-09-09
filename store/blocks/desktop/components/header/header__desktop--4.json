@@ -2,7 +2,8 @@
   "flex-layout.row#category-menu": {
     "title": "Menu del header inferior",
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "categoria-menu"
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },

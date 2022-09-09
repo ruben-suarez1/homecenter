@@ -143,6 +143,13 @@
       "blockClass": "summaryListDesktop"
     }
   },
+  "flex-layout.col#productRating": {
+    "props": {
+      "blockClass": "productRating"
+    },
+    "children": ["product-rating-inline"]
+  },
+
   "flex-layout.row#summaryListMobile": {
     "props":{
       "preserveLayoutOnMobile": true,
@@ -200,6 +207,11 @@
       "product-selling-price#summary",
       "product-installments#summary"
     ]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
   },
   "vtex.store-components:product-brand#summaryListMobile": {
     "props": {

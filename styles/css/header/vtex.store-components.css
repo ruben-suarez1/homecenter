@@ -1,7 +1,6 @@
 .autoCompleteOuterContainer {
   width: 35vw;
 }
-
 @media (max-width: 1024) {
   .logoImage--logo-cart {
     height: 30px;

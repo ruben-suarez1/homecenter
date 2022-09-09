@@ -80,22 +80,24 @@
     },
     "children": ["search-fetch-previous"]
   },
+  "search-fetch-previous": {
+    "props": {
+      "htmlElementForButton": "a"
+    }
+  },
+
   "flex-layout.row#fetchmore": {
     "props": {
       "marginTop": 3
     },
     "children": ["search-fetch-more"]
   },
-  "search-fetch-previous": {
-    "props": {
-      "htmlElementForButton": "a"
-    }
-  },
   "search-fetch-more": {
     "props": {
       "htmlElementForButton": "a"
     }
   },
+
   "flex-layout.row#products": {
     "children": ["search-content"]
   },
@@ -132,12 +134,10 @@
       "GridSummary": "product-summary.shelf"
     }
   },
+
+
   "gallery-layout-switcher": {
     "children": [
-      /*
-       * For accessbility to work properly,
-       * It's important to define the options in the same order as the layouts
-       */
       "gallery-layout-option#grid",
       "gallery-layout-option#list"
     ]

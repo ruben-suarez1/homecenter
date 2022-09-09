@@ -6,3 +6,6 @@
 .socialNetworkWrapper--social-icon {
   padding-left: 1rem !important;
 }
+.footerLayout {
+  background-color: var(--white-color);
+}

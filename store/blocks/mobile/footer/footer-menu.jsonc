@@ -11,14 +11,16 @@
       "flex-layout.row#mobile1-text4"
     ]
   },
+
   "flex-layout.row#mobile1-text1": {
     "props": {
       "blockClass": "mobile1-text1",
       "orientation": "vertical"
     },
     "children": [
+      "icon#fecha",
       "flex-layout.col#mobile1-text-1",
-      "flex-layout.col#mobile1-icon"
+      "icon#flecha"
     ]
   },
   "flex-layout.col#mobile1-text-1": {
@@ -26,16 +28,7 @@
       "blockClass": "mobile1-text1-text"
     },
     "children": [
-      "flex-layout.row#mobile1-text1-icon",
       "flex-layout.row#mobile1-text1-text"
-    ]
-  },
-  "flex-layout.row#mobile1-text1-icon": {
-    "props": {
-      "blockClass": "mobile1-icon"
-    },
-    "children": [
-      "rich-text#i"
     ]
   },
   "flex-layout.row#mobile1-text1-text": {
@@ -49,29 +42,6 @@
       "blockClass": "text"
     }
   },
-  "rich-text#i": {
-    "props": {
-      "text": "i",
-      "blockClass": "i"
-    }
-  },
-  "flex-layout.col#mobile1-icon": {
-    "props": {
-      "blockClass": "mobile1-icon2"
-    },
-    "children": [
-      "flex-layout.row#mobile1-icon"
-    ]
-  },
-  "flex-layout.row#mobile1-icon": {
-    "props": {
-      "blockClass": "mobile1-icons2"
-    },
-    "children": [
-      "rich-text#i"
-    ]
-  },
-
 
   "flex-layout.row#mobile1-text2": {
     "props": {
@@ -79,8 +49,9 @@
       "orientation": "vertical"
     },
     "children": [
+      "icon#ubicacion",
       "flex-layout.col#mobile1-text-2",
-      "flex-layout.col#mobile1-icon2"
+      "icon#flecha"
     ]
   },
   "flex-layout.col#mobile1-text-2": {
@@ -88,16 +59,7 @@
       "blockClass": "mobile1-text1-text"
     },
     "children": [
-      "flex-layout.row#mobile1-text2-icon",
       "flex-layout.row#mobile1-text2-text"
-    ]
-  },
-  "flex-layout.row#mobile1-text2-icon": {
-    "props": {
-      "blockClass": "mobile1-icon"
-    },
-    "children": [
-      "rich-text#i"
     ]
   },
   "flex-layout.row#mobile1-text2-text": {
@@ -111,22 +73,6 @@
       "blockClass": "text"
     }
   },
-  "flex-layout.col#mobile1-icon2": {
-    "props": {
-      "blockClass": "mobile1-icon2"
-    },
-    "children": [
-      "flex-layout.row#mobile1-icon2"
-    ]
-  },
-  "flex-layout.row#mobile1-icon2": {
-    "props": {
-      "blockClass": "mobile1-icons2"
-    },
-    "children": [
-      "rich-text#i"
-    ]
-  },
 
 
   "flex-layout.row#mobile1-text3": {
@@ -135,8 +81,9 @@
       "orientation": "vertical"
     },
     "children": [
+      "icon#busqueda",
       "flex-layout.col#mobile1-text-3",
-      "flex-layout.col#mobile1-icon3"
+      "icon#flecha"
     ]
   },
   "flex-layout.col#mobile1-text-3": {
@@ -144,16 +91,7 @@
       "blockClass": "mobile1-text1-text"
     },
     "children": [
-      "flex-layout.row#mobile1-text3-icon",
       "flex-layout.row#mobile1-text3-text"
-    ]
-  },
-  "flex-layout.row#mobile1-text3-icon": {
-    "props": {
-      "blockClass": "mobile1-icon"
-    },
-    "children": [
-      "rich-text#i"
     ]
   },
   "flex-layout.row#mobile1-text3-text": {
@@ -167,23 +105,6 @@
       "blockClass": "text"
     }
   },
-  "flex-layout.col#mobile1-icon3": {
-    "props": {
-      "blockClass": "mobile1-icon2",
-      "width": 20
-    },
-    "children": [
-      "flex-layout.row#mobile1-icon3"
-    ]
-  },
-  "flex-layout.row#mobile1-icon3": {
-    "props": {
-      "blockClass": "mobile1-icons2"
-    },
-    "children": [
-      "rich-text#i"
-    ]
-  },
 
 
   "flex-layout.row#mobile1-text4": {
@@ -192,8 +113,9 @@
       "orientation": "vertical"
     },
     "children": [
+      "icon#telefono",
       "flex-layout.col#mobile1-text-4",
-      "flex-layout.col#mobile1-icon4"
+      "icon#flecha"
     ]
   },
   "flex-layout.col#mobile1-text-4": {
@@ -201,16 +123,7 @@
       "blockClass": "mobile1-text1-text"
     },
     "children": [
-      "flex-layout.row#mobile1-text4-icon",
       "flex-layout.row#mobile1-text4-text"
-    ]
-  },
-  "flex-layout.row#mobile1-text4-icon": {
-    "props": {
-      "blockClass": "mobile1-icon"
-    },
-    "children": [
-      "rich-text#i"
     ]
   },
   "flex-layout.row#mobile1-text4-text": {
@@ -224,21 +137,45 @@
       "blockClass": "text"
     }
   },
-  "flex-layout.col#mobile1-icon4": {
+
+  "icon#flecha": {
+    "title": "logo flecha",
     "props": {
-      "blockClass": "mobile1-icon2",
-      "width": 20
-    },
-    "children": [
-      "flex-layout.row#mobile1-icon4"
-    ]
+      "id": "nav-caret--right",
+      "width": "30",
+      "height": "30"
+    }
   },
-  "flex-layout.row#mobile1-icon4": {
+  "icon#telefono": {
+    "title": "logo telefono",
     "props": {
-      "blockClass": "mobile1-icons2"
-    },
-    "children": [
-      "rich-text#i"
-    ]
+      "id": "hpa-telemarketing",
+      "width": "30",
+      "height": "30"
+    }
+  },
+  "icon#busqueda": {
+    "title": "logo busqueda",
+    "props": {
+      "id": "mpa-bookmark--outline",
+      "width": "30",
+      "height": "30"
+    }
+  },
+  "icon#ubicacion": {
+    "title": "logo ubicacion",
+    "props": {
+      "id": "mpa-location-input",
+      "width": "30",
+      "height": "30"
+    }
+  },
+  "icon#fecha": {
+    "title": "logo flecha",
+    "props": {
+      "id": "hpa-calendar",
+      "width": "30",
+      "height": "30"
+    }
   }
 }
