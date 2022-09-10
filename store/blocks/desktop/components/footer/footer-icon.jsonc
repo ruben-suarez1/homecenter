@@ -1,0 +1,121 @@
+{
+  "flex-layout.row#footer-icon": {
+    "title": "fila de iconos",
+    "children": [
+      "flex-layout.col#footer__one",
+      "flex-layout.col#footer__two",
+      "flex-layout.col#footer__three",
+      "flex-layout.col#footer__four"
+    ],
+    "props": {
+      "blockClass": "footer-icon"
+    }
+  },
+  "flex-layout.col#footer__one": {
+    "title": "icono 1",
+    "children": [
+      "image#footer__one",
+      "rich-text#footer__one--title"
+    ],
+    "props": {
+      "blockClass": "footer__one"
+    }
+  },
+  "image#footer__one": {
+    "props": {
+      "blockClass": "image__footer-one",
+      "src": "https://gogeticon.net/files/3132476/5fd37ca23b4ffb4435fe969386bad4f5.png",
+      "maxHeight": 35,
+      "link": {
+        "url": "/faq"
+      }
+    }
+  },
+  "rich-text#footer__one--title": {
+    "props": {
+      "text": "Te escuchamos / PQRS",
+      "blockClass": ""
+    }
+  },
+  "flex-layout.col#footer__two": {
+    "title": "icono2",
+    "children": [
+      "image#footer__two",
+      "rich-text#footer__two--title"
+    ],
+    "props": {
+      "href": "/new-page",
+      "blockClass": "footer__one"
+    }
+  },
+  "image#footer__two": {
+    "props": {
+      "blockClass": "image__footer-one",
+      "src": "https://nuriapardo.com/wp-content/uploads/xbrujula.png.pagespeed.ic.fWiaK2TayN.png",
+      "maxHeight": 35,
+      "link": {
+        "url": "/faq"
+      }
+    }
+  },
+  "rich-text#footer__two--title": {
+    "props": {
+      "text": "Métodos de Retiro y Envío",
+      "blockClass": ""
+    }
+  },
+  "flex-layout.col#footer__three": {
+    "title": "icono3",
+    "children": [
+      "image#footer__three",
+      "rich-text#footer__three--title"
+    ],
+    "props": {
+      "href": "/new-page",
+      "blockClass": "footer__one"
+    }
+  },
+  "image#footer__three": {
+    "props": {
+      "blockClass": "image__footer-one",
+      "src": "https://gogeticon.net/files/3184796/6630ea56598e1bd47de9d4aa96697122.png",
+      "maxHeight": 35,
+      "link": {
+        "url": "/faq"
+      }
+    }
+  },
+  "rich-text#footer__three--title": {
+    "props": {
+      "text": "Autogestión de Datos personales",
+      "blockClass": ""
+    }
+  },
+  "flex-layout.col#footer__four": {
+    "title": "icono4",
+    "children": [
+      "image#footer__four",
+      "rich-text#footer__four--title"
+    ],
+    "props": {
+      "href": "/new-page",
+      "blockClass": "footer__one"
+    }
+  },
+  "image#footer__four": {
+    "props": {
+      "blockClass": "image__footer-one",
+      "src": "https://gogeticon.net/files/3186850/df04bad3eca50dbe5472223f3209e947.png",
+      "maxHeight": 35,
+      "link": {
+        "url": "/faq"
+      }
+    }
+  },
+  "rich-text#footer__four--title": {
+    "props": {
+      "text": "Venta telefónica 018000127373",
+      "blockClass": ""
+    }
+  }
+}

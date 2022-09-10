@@ -1,8 +1,13 @@
 {
-  "store.home": {
-    "blocks": [
+  "responsive-layout.desktop": {
+    "title": "Home Principal",
+    "props": {
+      "blockClass": "home-menu"
+    },
+    "children": [
       "flex-layout.row#home__banner--one",
       "list-context.image-list#home__slider--one",
+      "whatsapp-button",
       "flex-layout.row#home__icon--one",
       "flex-layout.row#home__promo--one",
       "flex-layout.row#home__icon--two",
@@ -22,36 +27,13 @@
     ]
   },
 
-  "flex-layout.row#home__shelf--one": {
-    "children": [
-      "flex-layout.row#shelf"
-      ],
-      "props": {
-        "blockClass": "promo__banner"
-      }
-  },
-
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
-  },
-
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+  "whatsapp-button": {
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#demo-products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
+      "logo": "assets/WhatsApp.webp",
+      "phone": "7777777777",
+      "message": "Hola mundo desde whatsapp"
+
     }
   }
+
 }

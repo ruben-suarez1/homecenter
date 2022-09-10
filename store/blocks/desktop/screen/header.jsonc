@@ -1,0 +1,18 @@
+{
+  "header-layout.desktop": {
+    "title": "Header Principal",
+    "props": {
+      "blockClass": "main-menu"
+    },
+    "children": [
+      "flex-layout.row#2-desktop",
+      "sticky-layout#3-desktop",
+      "flex-layout.row#category-menu"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  }
+}

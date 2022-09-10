@@ -1,0 +1,77 @@
+.styledLinkContainer--menu-item {
+  margin-right: 0.1rem ;
+  margin-left: 0.1rem ;
+}
+.menuItem--menu-slash--isClosed {
+  margin-right: 0.1rem ;
+  margin-left: 0.1rem ;
+}
+.menuContainer--category-menu {
+    justify-content: center;
+}
+.styledLinkContent--content-blue {
+    color: var(--text-secondary);
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+.styledLinkContainer--menu-slash {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  margin: 0 !important;
+}
+.styledLinkContainer--menu-institucional {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  margin: 0 !important;
+}
+.styledLinkContent--more {
+    text-transform: uppercase;
+}
+.styledLink--more {
+    font-size: 0.8rem;
+}
+.styledLink--menu-item {
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+}
+.styledLink--menu-slash {
+  padding: 0.1rem !important;
+  margin: auto !important;
+}
+.styledLinkContent--content-black {
+    font-size: 0.8rem;
+}
+.menuItem--more:hover {
+    background-color: var(--primary-color);
+    box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, 0.2);
+}
+.submenuWrapper--submenu-more {
+    background-color: var(--primary-color);
+    width: 80%;
+    margin-left: 10%;
+}
+.menuItem--content-black:hover {
+    text-decoration: underline;
+}
+.menuItem--content-blue:hover {
+    text-decoration: underline;
+}
+
+/* mobile */
+.menuContainerNav--menu--mobile {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .styledLinkContent--more {
+    text-transform: none;
+  }
+
+  .styledLinkContainer--more{
+    border-bottom: 0.0625rem solid #f5f5f5;
+    padding: 0.9375rem;
+    line-height: 1.25rem;
+  }
+ }
+
+

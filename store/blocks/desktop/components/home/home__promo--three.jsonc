@@ -1,39 +1,48 @@
 {
-    "flex-layout.row#home__promo--three": {
-        "children": [ 
-            "flex-layout.col#grids__one",
-            "flex-layout.col#grids__two"
-        ],
-        "props": {
-            "blockClass": "promo__banner"
-        }
-    },
-    "flex-layout.col#grids__one": {
-        "children": [
-            "image#grids__one"
-        ],
-        "props": {
-            "blockClass": "icon__banner"
-        }
-    },
-    "image#grids__one": {
-        "props": {
-            "src": "assets/img/grid__one.webp",
-            "maxHeight": 370
-        }
-    },
-    "flex-layout.col#grids__two": {
-        "children": [
-            "image#grids__two"
-        ],
-        "props": {
-            "blockClass": "icon__banner"
-        }
-    },
-    "image#grids__two": {
-        "props": {
-            "src": "assets/img/grid__two.webp",
-            "maxHeight": 370
-        }
+  "flex-layout.row#home__promo--three": {
+    "title": "bloque de promocion 3",
+    "children": [
+      "flex-layout.col#grids__one",
+      "flex-layout.col#grids__two"
+    ],
+    "props": {
+      "blockClass": "promo__banner--three"
     }
+  },
+  "flex-layout.col#grids__one": {
+    "title": "imagen de promocion 1",
+    "children": [
+      "image#grids__one"
+    ],
+    "props": {
+      "blockClass": "icon__banner1"
+    }
+  },
+  "image#grids__one": {
+    "props": {
+      "src": "assets/img/grid__one.webp",
+      "maxHeight": 370,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "flex-layout.col#grids__two": {
+    "title": "imagen de promocion 2",
+    "children": [
+      "image#grids__two"
+    ],
+    "props": {
+      "blockClass": "icon__banner1"
+    }
+  },
+  "image#grids__two": {
+    "props": {
+      "src": "assets/img/grid__two.webp",
+      "maxHeight": 370,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  }
 }

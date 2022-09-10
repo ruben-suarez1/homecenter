@@ -1,0 +1,178 @@
+{
+  "flex-layout.row#menu-footer-mobile1": {
+    "title": "footer mobile 1",
+    "props": {
+      "blockClass": "footer-mobile1",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#mobile1-text1",
+      "flex-layout.row#mobile1-text2",
+      "flex-layout.row#mobile1-text3",
+      "flex-layout.row#mobile1-text4"
+    ]
+  },
+  "flex-layout.row#mobile1-text1": {
+    "props": {
+      "blockClass": "mobile1-text1",
+      "orientation": "vertical"
+    },
+    "children": [
+      "icon#fecha",
+      "flex-layout.col#mobile1-text-1",
+      "image#flecha"
+    ]
+  },
+  "flex-layout.col#mobile1-text-1": {
+    "props": {
+      "blockClass": "mobile1-text1-text"
+    },
+    "children": [
+      "flex-layout.row#mobile1-text1-text"
+    ]
+  },
+  "flex-layout.row#mobile1-text1-text": {
+    "children": [
+      "rich-text#mobile1-text1-text"
+    ]
+  },
+  "rich-text#mobile1-text1-text": {
+    "props": {
+      "text": "Te escuchamos / PQRS",
+      "blockClass": "text"
+    }
+  },
+  "flex-layout.row#mobile1-text2": {
+    "props": {
+      "blockClass": "mobile1-text1",
+      "orientation": "vertical"
+    },
+    "children": [
+      "icon#ubicacion",
+      "flex-layout.col#mobile1-text-2",
+      "image#flecha"
+    ]
+  },
+  "flex-layout.col#mobile1-text-2": {
+    "props": {
+      "blockClass": "mobile1-text1-text"
+    },
+    "children": [
+      "flex-layout.row#mobile1-text2-text"
+    ]
+  },
+  "flex-layout.row#mobile1-text2-text": {
+    "children": [
+      "rich-text#mobile1-text2-text"
+    ]
+  },
+  "rich-text#mobile1-text2-text": {
+    "props": {
+      "text": "Métodos de Retiro y Envío",
+      "blockClass": "text"
+    }
+  },
+  "flex-layout.row#mobile1-text3": {
+    "props": {
+      "blockClass": "mobile1-text1",
+      "orientation": "vertical"
+    },
+    "children": [
+      "icon#busqueda",
+      "flex-layout.col#mobile1-text-3",
+      "image#flecha"
+    ]
+  },
+  "flex-layout.col#mobile1-text-3": {
+    "props": {
+      "blockClass": "mobile1-text1-text"
+    },
+    "children": [
+      "flex-layout.row#mobile1-text3-text"
+    ]
+  },
+  "flex-layout.row#mobile1-text3-text": {
+    "children": [
+      "rich-text#mobile1-text3-text"
+    ]
+  },
+  "rich-text#mobile1-text3-text": {
+    "props": {
+      "text": "Autogestión de Datos personales",
+      "blockClass": "text"
+    }
+  },
+  "flex-layout.row#mobile1-text4": {
+    "props": {
+      "blockClass": "mobile1-text1",
+      "orientation": "vertical"
+    },
+    "children": [
+      "icon#telefono",
+      "flex-layout.col#mobile1-text-4",
+      "image#flecha"
+    ]
+  },
+  "flex-layout.col#mobile1-text-4": {
+    "props": {
+      "blockClass": "mobile1-text1-text"
+    },
+    "children": [
+      "flex-layout.row#mobile1-text4-text"
+    ]
+  },
+  "flex-layout.row#mobile1-text4-text": {
+    "children": [
+      "rich-text#mobile1-text4-text"
+    ]
+  },
+  "rich-text#mobile1-text4-text": {
+    "props": {
+      "text": "Venta telefónica 018000 12 7373",
+      "blockClass": "text"
+    }
+  },
+  "image#flecha": {
+    "props": {
+      "blockClass": "icon-flecha",
+      "src": "assets/proximo.png",
+      "maxHeight": 30,
+      "maxWidth": 30,
+      "link": {
+        "url": "/faq"
+      }
+    }
+  },
+  "icon#telefono": {
+    "title": "logo telefono",
+    "props": {
+      "id": "hpa-telemarketing",
+      "width": "30",
+      "height": "30"
+    }
+  },
+  "icon#busqueda": {
+    "title": "logo busqueda",
+    "props": {
+      "id": "mpa-bookmark--outline",
+      "width": "30",
+      "height": "30"
+    }
+  },
+  "icon#ubicacion": {
+    "title": "logo ubicacion",
+    "props": {
+      "id": "mpa-location-input",
+      "width": "30",
+      "height": "30"
+    }
+  },
+  "icon#fecha": {
+    "title": "logo flecha",
+    "props": {
+      "id": "hpa-calendar",
+      "width": "30",
+      "height": "30"
+    }
+  }
+}

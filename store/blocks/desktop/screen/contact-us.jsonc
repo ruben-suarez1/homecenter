@@ -1,0 +1,17 @@
+{
+  "store.custom#contact-us": {
+    "title": "Pagina custom de contacto",
+    "blocks": [
+      "rich-text#contact",
+      "rich-text#texto"
+    ]
+  },
+  "rich-text#contact": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**CONTACT**",
+      "font": "t-heading-1"
+    }
+  }
+}

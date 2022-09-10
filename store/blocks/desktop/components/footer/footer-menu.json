@@ -1,0 +1,466 @@
+{
+  "flex-layout.row#footer-menu": {
+    "title": "columas de informacion",
+    "children": [
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "vtex.menu@2.x:menu#footer-bags",
+      "vtex.menu@2.x:menu#footer-clothing"
+
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+
+  "vtex.menu@2.x:menu#Products": {
+    "title": "columna 1",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#services",
+      "menu-item#sale ",
+      "menu-item#payment ",
+      "menu-item#returns",
+      "menu-item#policy",
+      "menu-item#conditions",
+      "menu-item#consumer",
+      "menu-item#map",
+      "menu-item#sic"
+    ]
+  },
+  "menu-item#services": {
+    "props": {
+      "id": "menu-item-services",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"menu__footer-tittle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": false,
+        "tagTitle": "Servicio al cliente",
+        "text": "Servicio al cliente"
+      }
+    }
+  },
+  "menu-item#sale ": {
+    "props": {
+      "id": "menu-item-Sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": false,
+        "tagTitle": "Venta a empresas",
+        "text": "Venta a empresas"
+      }
+    }
+  },
+  "menu-item#payment ": {
+    "props": {
+      "id": "menu-item-Payment",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": false,
+        "tagTitle": "Medios de pago",
+        "text": "Medios de pago"
+      }
+    }
+  },
+  "menu-item#returns": {
+    "props": {
+      "id": "menu-item-Returns",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": false,
+        "tagTitle": "Cambios y devoluciones",
+        "text": "Cambios y devoluciones"
+      }
+    }
+  },
+  "menu-item#policy": {
+    "props": {
+      "id": "menu-item-policy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": false,
+        "tagTitle": "Política de protección de datos",
+        "text": "Política de protección de datos"
+      }
+    }
+  },
+  "menu-item#conditions": {
+    "props": {
+      "id": "menu-item-conditions",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#consumer": {
+    "props": {
+      "id": "menu-item-consumer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": false,
+        "tagTitle": "Estatuto del consumidor",
+        "text": "Estatuto del consumidor"
+      }
+    }
+  },
+  "menu-item#map": {
+    "props": {
+      "id": "menu-item-map",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": false,
+        "tagTitle": "Mapa del sitio",
+        "text": "Mapa del sitio"
+      }
+    }
+  },
+  "menu-item#sic": {
+    "props": {
+      "id": "menu-item-sic",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": false,
+        "tagTitle": "Superintendencia Industria y Comercio SIC",
+        "text": "SIC"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "title": "columna 2",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#account",
+      "menu-item#signup",
+      "menu-item#password",
+      "menu-item#mypassword"
+    ]
+  },
+  "menu-item#account": {
+    "props": {
+      "id": "menu-item-account",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"menu__footer-tittle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Mi cuenta",
+        "text": "Mi cuenta"
+      }
+    }
+  },
+  "menu-item#signup": {
+    "props": {
+      "id": "menu-item-signup",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Regístrate",
+        "text": "Regístrate"
+      }
+    }
+  },
+  "menu-item#password": {
+    "props": {
+      "id": "menu-item-password",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Cambia tu clave",
+        "text": "Cambia tu clave"
+      }
+    }
+  },
+  "menu-item#mypassword": {
+    "props": {
+      "id": "menu-item-mypassword",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Olvidé mi clave",
+        "text": "Olvidé mi clave"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "title": "columna 3",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#more",
+      "menu-item#information",
+      "menu-item#investors",
+      "menu-item#responsibility",
+      "menu-item#work",
+      "menu-item#sell",
+      "menu-item#sodimac",
+      "menu-item#nit"
+    ]
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-more",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"menu__footer-tittle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Más de Homecenter",
+        "text": "Más de Homecenter"
+      }
+    }
+  },
+  "menu-item#information": {
+    "props": {
+      "id": "menu-item-information",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Información a proveedores",
+        "text": "Información a proveedores"
+      }
+    }
+  },
+  "menu-item#investors": {
+    "props": {
+      "id": "menu-item-investors",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Información a inversonistas",
+        "text": "Información a inversonistas"
+      }
+    }
+  },
+  "menu-item#responsibility": {
+    "props": {
+      "id": "menu-item-responsibility",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Responsabilidad Social Empresarial",
+        "text": "Responsabilidad Social Empresarial"
+      }
+    }
+  },
+  "menu-item#work": {
+    "props": {
+      "id": "menu-item-work",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Trabaje para nosotros",
+        "text": "Trabaje para nosotros"
+      }
+    }
+  },
+  "menu-item#sell": {
+    "props": {
+      "id": "menu-item-sell",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Vende en Homecenter.com.co",
+        "text": "Vende en Homecenter.com.co"
+      }
+    }
+  },
+  "menu-item#sodimac": {
+    "props": {
+      "id": "menu-item-sodimac",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Sodimac Colombia S.A.",
+        "text": "Sodimac Colombia S.A."
+      }
+    }
+  },
+  "menu-item#nit": {
+    "props": {
+      "id": "menu-item-nit",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "NIT 800.242.106-2",
+        "text": "NIT 800.242.106-2"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-clothing": {
+    "title": "columna 4",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#app",
+      "menu-item#apple",
+      "menu-item#google",
+      "social-networks"
+    ]
+  },
+  "menu-item#app": {
+    "props": {
+      "id": "menu-item-app",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass":"menu__footer-tittle",
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "Descarga la APP Homecenter",
+        "text": "Descarga la APP Homecenter"
+      }
+    }
+  },
+  "menu-item#apple": {
+    "props": {
+      "id": "menu-item-apple",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clothing/shorts",
+        "noFollow": false,
+        "tagTitle": "Apple Store",
+        "text": "Apple Store"
+      }
+    }
+  },
+  "menu-item#google": {
+    "props": {
+      "id": "menu-item-google",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": false,
+        "tagTitle": "Google Store",
+        "text": "Google Store"
+      }
+    }
+  },
+  "social-networks": {
+    "props": {
+      "blockClass": "social-icon",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  }
+}

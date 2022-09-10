@@ -1,16 +1,20 @@
 {
-    "flex-layout.row#home__banner--three": {
-        "children": [
-            "image#banner3__image"
-          ],
-          "props": {
-            "blockClass": "promo__banner"
-          }
-      },
-      "image#banner3__image": {
-        "props": {
-          "src": "assets/banner3__image--1.webp",
-          "maxHeight":100
-        }
+  "flex-layout.row#home__banner--three": {
+    "title": "Banner 3",
+    "children": [
+      "image#banner3__image"
+    ],
+    "props": {
+      "blockClass": "promo__banner"
     }
+  },
+  "image#banner3__image": {
+    "props": {
+      "src": "assets/banner3__image--1.webp",
+      "maxHeight": 100,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  }
 }
