@@ -45,6 +45,7 @@
       "height": "30"
     }
   },
+
   "flex-layout.col#search-desktop": {
     "title": "barra de busqueda",
     "props": {
@@ -55,7 +56,13 @@
       "search-bar"
     ]
   },
-  "flex-layout.col#login-cart": {
+  "search-bar": {
+    "props": {
+      "placeholder": "¿Qué estás buscando?"
+    }
+  },
+
+"flex-layout.col#login-cart": {
     "title": "carrito-inicio de sesion",
     "props": {
       "blockClass": "login-cart",
@@ -72,19 +79,24 @@
       "blockClass": "icon-cart"
     },
     "children": [
-      "logo#cart"
+      "minicart.v2#header__main--minicart"
     ]
   },
-  "logo#cart": {
+  "minicart.v2#header__main--minicart": {
     "props": {
-      "title": "Logo-carrito",
       "blockClass": "logo-cart",
-      "href": "/cart-page",
-      "url": "assets/cart-icon.svg",
-      "width": 180,
-      "height": 35,
-      "mobileWidth": 30,
-      "mobileHeight": 30
+      "MinicartIcon": "icon-cart#minicart__icon",
+      "variation": "link",
+      "linkVariationUrl": "/cart-page"
+    },
+    "children": [
+      "minicart-base-content"
+    ]
+  },
+  "icon-cart#minicart__icon": {
+    "props": {
+      "id": "hpa-cart",
+      "size": 30
     }
   },
   "flex-layout.row#icon-login": {

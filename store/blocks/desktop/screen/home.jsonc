@@ -7,6 +7,7 @@
     "children": [
       "flex-layout.row#home__banner--one",
       "list-context.image-list#home__slider--one",
+      "list-context.bullet-group",
       "whatsapp-button",
       "flex-layout.row#home__icon--one",
       "flex-layout.row#home__promo--one",
@@ -33,6 +34,27 @@
       "phone": "7777777777",
       "message": "Hola mundo desde whatsapp"
 
+    }
+  },
+
+  "list-context.bullet-group": {
+    "props": {
+      "bullets": [
+        {
+          "image": "imagen.png",
+          "titleBullet": "Hola Mundo",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "imagen2.png",
+          "titleBullet": "Hola Mundo2",
+          "link": {
+            "url": "/new-page"
+          }
+        }
+      ]
     }
   }
 
