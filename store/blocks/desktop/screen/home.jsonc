@@ -34,6 +34,27 @@
       "message": "Hola mundo desde whatsapp"
 
     }
+  },
+
+  "list-context.bullet-group": {
+    "props": {
+      "bullets": [
+        {
+          "image": "imagen.png",
+          "titleBullet": "Hola Mundo",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "imagen2.png",
+          "titleBullet": "Hola Mundo2",
+          "link": {
+            "url": "/new-page"
+          }
+        }
+      ]
+    }
   }
 
 }

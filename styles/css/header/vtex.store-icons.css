@@ -1,0 +1,13 @@
+.cartIcon {
+  width: 31px;
+  height: 31px;
+  color: rgb(22, 21, 21);
+}
+
+@media (max-width: 1024px) {
+  .cartIcon {
+    width: 25px;
+    height: 25px;
+  }
+
+}
