@@ -1,0 +1,17 @@
+.bullet__container--bullet-group {
+  padding-top: 1rem;
+}
+
+.bullet__item--bullet-group {
+  border: 1px solid #ebebeb;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+.bullet__item--title--bullet-group {
+  background: var(--secondary-color);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  color: var(--white-color);
+}
