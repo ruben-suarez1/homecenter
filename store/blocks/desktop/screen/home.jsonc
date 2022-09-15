@@ -7,6 +7,7 @@
     "children": [
       "flex-layout.row#home__banner--one",
       "list-context.image-list#home__slider--one",
+      "flex-layout.row#bullet-group",
       "whatsapp-button",
       "flex-layout.row#home__icon--one",
       "flex-layout.row#home__promo--one",
@@ -36,24 +37,90 @@
     }
   },
 
-  "list-context.bullet-group": {
+  "flex-layout.row#bullet-group": {
     "props": {
+      "blockClass": "bullet-group"
+    },
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+
+  "list-context.bullet-group": {
+    "title": "lista de Bulltes",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "blockClass": "bullet-group",
       "bullets": [
         {
-          "image": "imagen.png",
-          "titleBullet": "Hola Mundo",
+          "image": "assets/bullets-1.jpg",
+          "titleBullet": "Más información...",
           "link": {
             "url": "/new-page"
           }
         },
         {
-          "image": "imagen2.png",
-          "titleBullet": "Hola Mundo2",
+          "image": "assets/bullets-2.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-3.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-4.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-5.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-6.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-1.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-2.jpg",
+          "titleBullet": "Más información...",
           "link": {
             "url": "/new-page"
           }
         }
       ]
+    }
+  },
+
+  "slider-layout#bullet-group": {
+    "props": {
+      "blockClass": "bullet-group",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet":5,
+        "mobile": 5
+      },
+      "infinite": true
     }
   }
 

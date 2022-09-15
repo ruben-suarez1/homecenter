@@ -5,3 +5,37 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
+.sliderTrack--bullet-group {
+  gap: 0.5rem;
+}
+
+.slide--bullet-group--visible {
+  width: 5.55556%;
+  border: 1px solid #ebebeb;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.2rem;
+}
+
+.bullet__item--link--bullet-group {
+  text-decoration: none;
+}
+
+.bullet__item--title--bullet-group {
+  text-align: center;
+  background: var(--secondary-color);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: var(--white-color);
+}
+
+.caretIcon--bullet-group {
+  background: #efecec;
+  padding: 0.7rem;
+  border-radius: 2rem;
+}
+
+@media (max-width: 1024) {
+
+}

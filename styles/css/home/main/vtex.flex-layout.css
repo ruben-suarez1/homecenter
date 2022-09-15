@@ -26,7 +26,7 @@
 .flexRow--deals--icon {
   background-color: var(--primary-color) !important;
   max-width: 80%;
-  margin: 5rem auto 0 ;
+  margin: 2rem auto 0 ;
   padding: 0 !important;
 }
 
@@ -110,6 +110,11 @@
   gap: 1rem;
 }
 
+.flexRow--bullet-group {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
 /* mobile */
 @media (max-width: 1024px) {
 
