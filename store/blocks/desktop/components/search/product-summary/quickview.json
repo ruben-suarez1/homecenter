@@ -53,7 +53,9 @@
   "flex-layout.row#quickview-actions-1": {
     "children": [
       "flex-layout.col#quickview-product-quantity",
-      "flex-layout.col#quickview-add-to-card-button"
+      "flex-layout.col#quickview-add-to-card-button",
+      "modal-trigger#add-to-cart-info"
+
     ],
     "props": {
       "colSizing": "auto",
@@ -81,7 +83,26 @@
       "width": "grow"
     }
   },
-
+  "modal-trigger#add-to-cart-info": {
+    "children": [
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info":{
+    "children": [
+      "modal-header#add-to-cart-info",
+      "add-to-cart-info"
+    ]
+  },
+  "modal-header#add-to-cart-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
+    }
+  },
   "flex-layout.row#quickview-actions-2": {
     "children": [
       "link.product#button-pdp"

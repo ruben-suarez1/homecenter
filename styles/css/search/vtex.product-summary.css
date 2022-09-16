@@ -33,3 +33,9 @@
 .nameContainer--summary-name  {
   height: 4rem;
 }
+
+.containerNormal--summary-shelf {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #d6d6d6;
+}
