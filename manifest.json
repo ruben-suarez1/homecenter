@@ -54,7 +54,6 @@
     "vtex.store-icons": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.store-link": "0.x",
-    "vtex.store-video": "1.x",
     "vtex.product-gifts": "0.x",
     "vtex.product-price": "1.x",
     "vtex.disclosure-layout": "1.x",
@@ -64,12 +63,13 @@
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
-    "itgloberspartnercl.bullets-diagramation": "0.x"
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.bullets-diagramation": "0.x",
+    "itgloberspartnercl.add-to-cart-info": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",
-    "vtex.wish-list": "1.x",
-    "itgloberspartnercl.whatsapp-button": "0.x"
+    "vtex.wish-list": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
