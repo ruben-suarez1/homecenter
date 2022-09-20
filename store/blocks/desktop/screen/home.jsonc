@@ -7,6 +7,7 @@
     "children": [
       "flex-layout.row#home__banner--one",
       "list-context.image-list#home__slider--one",
+      "quick-order",
       "flex-layout.row#bullet-group",
       "whatsapp-button",
       "flex-layout.row#home__icon--one",
