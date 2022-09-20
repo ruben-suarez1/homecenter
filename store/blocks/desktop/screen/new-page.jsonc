@@ -3,7 +3,8 @@
     "title": "Pagina custom nueva",
     "blocks": [
       "rich-text#page",
-      "rich-text#texto"
+      "rich-text#texto",
+      "pdf-reader"
     ]
   },
   "rich-text#page": {
@@ -12,6 +13,24 @@
       "textPosition": "CENTER",
       "text": "**NEW PAGE**",
       "font": "t-heading-1"
+    }
+  },
+
+  "rich-text#texto": {
+    "title": "texto de redireccionamiento",
+    "props": {
+      "text": "Pagina de redireccionamiento",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3"
+    }
+  },
+
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/pdf.pdf",
+      "width": 500,
+      "heigth": 1500
     }
   }
 }

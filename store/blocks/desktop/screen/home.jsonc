@@ -24,7 +24,8 @@
       "flex-layout.row#home__promo--five",
       "rich-text#shelf__title--two",
       "flex-layout.row#home__icon--four",
-      "flex-layout.row#home__info--one"
+      "flex-layout.row#home__info--one",
+      "department-search"
     ]
   },
 
