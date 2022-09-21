@@ -1,0 +1,11 @@
+{
+
+  "flex-layout.row#quick-order": {
+    "props": {
+      "blockClass": "quick-order"
+    },
+    "children": [
+      "quick-order"
+    ]
+  }
+}

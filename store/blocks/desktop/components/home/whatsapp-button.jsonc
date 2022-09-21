@@ -1,0 +1,9 @@
+{
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/WhatsApp.webp",
+      "phone": "7777777777",
+      "message": "Hola mundo desde whatsapp"
+    }
+  }
+}

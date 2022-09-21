@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#bullet-group": {
+    "props": {
+      "blockClass": "bullet-group"
+    },
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+  "list-context.bullet-group": {
+    "title": "lista de Bulltes",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "blockClass": "bullet-group",
+      "bullets": [
+        {
+          "image": "assets/bullets-1.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-2.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-3.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-4.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-5.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-6.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-1.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        },
+        {
+          "image": "assets/bullets-2.jpg",
+          "titleBullet": "Más información...",
+          "link": {
+            "url": "/new-page"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "blockClass": "bullet-group",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "infinite": true
+    }
+  }
+}
