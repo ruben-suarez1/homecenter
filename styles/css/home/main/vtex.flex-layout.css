@@ -113,8 +113,30 @@
 .flexRow--bullet-group {
   width: 80%;
   margin: 0 auto;
-  padding-top: 2rem;
 }
+
+.flexRow--custom-grid {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 0.5rem;
+}
+
+.flexRow--quick-order {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px #ebebeb solid;
+  background: white;
+  border-radius: 0.5rem;
+}
+
+.flexRow--department-search {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
 /* mobile */
 @media (max-width: 1024px) {
 

@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#custom-grid": {
+    "title": "gris custoizado",
+    "props": {
+      "blockClass": "custom-grid"
+    },
+    "children": [
+      "custom-grid"
+    ]
+  },
+  "custom-grid": {
+    "children": [
+      "image#grid-1",
+      "image#grid-2",
+      "image#grid-3",
+      "image#grid-4",
+      "image#grid-5"
+    ]
+  },
+  "image#grid-1": {
+    "props": {
+      "blockClass": "grid-1",
+      "src": "assets/img/grid-1.webp",
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "image#grid-2": {
+    "props": {
+      "blockClass": "grid-2",
+      "src": "assets/img/grid-2.webp",
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "image#grid-3": {
+    "props": {
+      "blockClass": "grid-2",
+      "src": "assets/img/grid-3.webp",
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "image#grid-4": {
+    "props": {
+      "blockClass": "grid-2",
+      "src": "assets/img/grid-4.webp",
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "image#grid-5": {
+    "props": {
+      "blockClass": "grid-2",
+      "src": "assets/img/grid-5.webp",
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  }
+}
