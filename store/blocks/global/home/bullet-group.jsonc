@@ -1,5 +1,6 @@
 {
   "flex-layout.row#bullet-group": {
+    "title": "lista de Bulltes",
     "props": {
       "blockClass": "bullet-group"
     },
@@ -8,7 +9,7 @@
     ]
   },
   "list-context.bullet-group": {
-    "title": "lista de Bulltes",
+    "title": "listado de Bulltes",
     "children": [
       "slider-layout#bullet-group"
     ],
@@ -79,8 +80,8 @@
       "blockClass": "bullet-group",
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 5,
-        "mobile": 5
+        "tablet": 4,
+        "mobile": 4
       },
       "infinite": true
     }

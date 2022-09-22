@@ -1,11 +1,15 @@
 .searchResultContainer--result-layout {
-    width: 80% !important;
-    margin: 0 auto;
-  }
+  width: 80% !important;
+  margin: 0 auto;
+}
 
-  .galleryItem--grid {
-    background: white;
-    border: 0.2 solid;
-    border: 1px solid #cec9c9;
-    border-radius: 0.5rem;
-  }
+.galleryItem--grid {
+  background: white;
+  border: 0.2 solid;
+  border: 1px solid #cec9c9;
+  border-radius: 0.5rem;
+}
+
+.galleryTitle--layout {
+  font-size: 2rem;
+}

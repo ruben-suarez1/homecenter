@@ -1,5 +1,6 @@
 {
   "whatsapp-button": {
+    "title": "Boton de whatsapp",
     "props": {
       "logo": "assets/WhatsApp.webp",
       "phone": "7777777777",

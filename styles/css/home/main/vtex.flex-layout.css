@@ -3,8 +3,8 @@
 }
 
 .flexRowContent--deals--icon {
-  justify-content: space-between;
   background: var(--primary-color);
+  gap: 1rem;
 }
 
 .flex-column {
@@ -26,8 +26,8 @@
 .flexRow--deals--icon {
   background-color: var(--primary-color) !important;
   max-width: 80%;
-  margin: 2rem auto 0 ;
-  padding: 0 !important;
+  margin: 0 auto;
+  padding: 1.5rem 0;
 }
 
 .flexRow--deals .stretchChildrenWidth {
@@ -52,6 +52,7 @@
 
 .flexCol--icon__container {
     background-color: var(--white-color);
+    align-items: center;
     border-radius: 0.188rem;
     box-shadow: none;
     width: 100%;
@@ -65,7 +66,8 @@
 .flexRow--promo__banner {
   background-color: var(--primary-color) !important;
   max-width: 80%;
-  margin: 1rem auto;
+  padding: 1.5rem 0;
+  margin: 0 auto;
 }
 .stretchChildrenWidth:hover {
   cursor: pointer;
@@ -78,12 +80,50 @@
 .flexRow--information {
   background-color: var(--primary-color) !important;
   max-width: 80%;
-  margin: 0.5rem auto ;
+  padding: 1.5rem 0 0 0;
+  margin: 0 auto ;
 }
 
 .flexRowContent--information {
   justify-content: space-between;
   background: var(--primary-color);
+  gap: 1rem;
+}
+
+.flexRow--promo__banner2--mobile{
+  padding: 3rem 0 1.5rem 0;
+}
+
+.flexRow--promo__banner--three {
+  padding: 1.5rem 0;
+}
+
+.flexRow--promo__banner--four {
+  padding: 0 0 1.5rem 0;
+}
+
+.flexRow--promo__banner--five {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 0 1.5rem 0;
+}
+
+.flexRowContent--promo__banner--five {
+  gap: 1rem;
+}
+
+.flexRow--information--four {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+
+.flexRowContent--information--four {
+  gap: 1rem;
+}
+
+.flexCol--icon4__one {
+  align-items: center;
 }
 
 .flexRow--information .flexCol {
@@ -113,18 +153,19 @@
 .flexRow--bullet-group {
   width: 80%;
   margin: 0 auto;
+  padding: 1.5rem 0;
 }
 
 .flexRow--custom-grid {
   width: 80%;
   margin: 0 auto;
-  padding-top: 0.5rem;
+  padding: 1.5rem 0;
 }
 
 .flexRow--quick-order {
   width: 80%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.5rem;
   border: 1px #ebebeb solid;
   background: white;
   border-radius: 0.5rem;
@@ -133,7 +174,7 @@
 .flexRow--department-search {
   width: 80%;
   margin: 0 auto;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   padding-bottom: 3rem;
 }
 

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#custom-grid": {
-    "title": "gris custoizado",
+    "title": "grid custoizado",
     "props": {
       "blockClass": "custom-grid"
     },

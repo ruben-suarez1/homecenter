@@ -10,7 +10,7 @@
       "flex-layout.col#icon4__six"
     ],
     "props": {
-      "blockClass": "information"
+      "blockClass": "information--four"
     }
   },
   "flex-layout.col#icon4__one": {

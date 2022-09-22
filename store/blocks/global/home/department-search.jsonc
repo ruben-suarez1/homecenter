@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#department-search": {
+    "title": "busqueda por departamento",
+    "props": {
+      "blockClass": "department-search"
+    },
+    "children": [
+      "department-search"
+    ]
+  }
+}
