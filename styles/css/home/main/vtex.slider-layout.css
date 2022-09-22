@@ -1,13 +1,18 @@
-.sliderTrackContainer--shelf {
-  height: 23rem;
+.sliderLayoutContainer--carousel__one {
+  padding-bottom: 1.5rem;
 }
+
 .sliderLayoutContainer--shelf {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
+.sliderTrack--shelf{
+  gap: 1rem;
+}
+
 .sliderTrack--bullet-group {
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .slide--bullet-group--visible {

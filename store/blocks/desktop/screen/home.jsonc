@@ -29,15 +29,7 @@
       "flex-layout.row#quick-order",
       "flex-layout.row#department-search"
     ]
-  },
-    "flex-layout.row#department-search":{
-      "props": {
-        "blockClass": "department-search"
-      },
-      "children": [
-        "department-search"
-      ]
-    }
+  }
 }
 
 

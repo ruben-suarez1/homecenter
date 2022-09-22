@@ -32,3 +32,35 @@
 .flexCol--summaryUpDetailsListMobile {
   margin-bottom: 0.25rem
 }
+
+.flexRow--searchbread {
+  padding: 0 4rem;
+}
+
+.flexRow--searchtitle {
+  padding: 0 4rem;
+}
+
+.flexRow--result {
+  padding: 0 4rem;
+}
+
+.flexCol--filterCol {
+  width: 15rem;
+  background: white;
+  padding: 1rem;
+}
+
+.flexRowContent--result {
+  padding-bottom: 2rem;
+}
+
+.flexRow--searchinfo{
+  background: white;
+  padding: 0.5rem;
+  margin-left: 2rem;
+}
+
+.flexRow--products {
+  padding-top: 2rem;
+}

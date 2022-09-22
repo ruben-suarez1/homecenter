@@ -1,6 +1,7 @@
 {
 
   "flex-layout.row#quick-order": {
+    "title": "pedido rapido",
     "props": {
       "blockClass": "quick-order"
     },

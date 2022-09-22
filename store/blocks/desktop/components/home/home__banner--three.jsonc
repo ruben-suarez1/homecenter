@@ -5,7 +5,7 @@
       "image#banner3__image"
     ],
     "props": {
-      "blockClass": "promo__banner"
+      "blockClass": "promo__banner--three"
     }
   },
   "image#banner3__image": {

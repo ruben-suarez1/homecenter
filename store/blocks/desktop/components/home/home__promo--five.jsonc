@@ -6,7 +6,7 @@
       "flex-layout.col#grid3__two"
     ],
     "props": {
-      "blockClass": "promo__banner"
+      "blockClass": "promo__banner--five"
     }
   },
   "flex-layout.col#grid3__one": {

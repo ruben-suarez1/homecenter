@@ -1,0 +1,53 @@
+.flexRow--product-breadcrumb {
+  padding: 0 2rem;
+}
+
+.flexRow--product-main {
+  padding: 0 2rem;
+}
+
+.flexRowContent--product-main {
+  gap: 1rem;
+  padding: 0;
+}
+
+.flexCol--stack {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.2rem;
+}
+
+.flexCol--right-col {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.2rem;
+}
+
+.flexRow--description {
+  padding: 0 2rem;
+}
+
+.flexRowContent--description {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.2rem;
+}
+
+.flexRow--productSpecificationGroup {
+  padding: 0 2rem;
+}
+
+.flexRowContent--productSpecificationGroup {
+  padding: 2rem;
+  background: white;
+  border-radius: 0.2rem;
+}
+
+.flexRow--product-reviews {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.flexRowContent--product-reviews {
+  background: white;
+  border-radius: 0.2rem;
+}

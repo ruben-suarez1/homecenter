@@ -4,7 +4,6 @@
     "children": [
       "flex-layout.row#banner__mobile--one",
       "list-context.image-list#home__slider--one",
-      "flex-layout.row#bullet-group--mobile",
       "flex-layout.row#home__icon--one",
       "flex-layout.row#mobile__promo1--one",
       "flex-layout.row#mobile__promo1--two",
@@ -17,16 +16,11 @@
       "flex-layout.row#home__promo--five",
       "rich-text#shelf__title--two",
       "flex-layout.row#home__icon--four",
-      "flex-layout.row#home__info--one"
-    ]
-  },
-
-  "flex-layout.row#bullet-group--mobile": {
-    "props": {
-      "blokClass": "bullet-group--mobile"
-    },
-    "children": [
-      "list-context.bullet-group"
+      "flex-layout.row#home__info--one",
+      "flex-layout.row#bullet-group",
+      "flex-layout.row#custom-grid",
+      "flex-layout.row#quick-order",
+      "flex-layout.row#department-search"
     ]
   }
 }
