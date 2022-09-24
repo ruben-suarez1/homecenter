@@ -187,25 +187,20 @@
 
   .flexRow--promo__banner {
     max-width: 95%;
-    margin: 1rem auto;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  .flexRow--promo__banner2--mobile {
+    padding: 0;
   }
 
   .flexRowContent--promo__banner {
-    display: flex;
-    flex-wrap: wrap;
     background: var(--white-color);
   }
 
   .flexRowContent--promo__banner--mobile{
     display: flex;
-    gap: 1rem;
-    width: 95%;
-    margin: 0 auto;
-  }
-
-  .flexRowContent--promo__banner2--mobile{
-    display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
     width: 95%;
     margin: 0 auto;
@@ -234,11 +229,16 @@
     flex-wrap: nowrap;
     width: 100%;
     overflow-y: hidden;
+    gap: 0.5rem;
+  }
+
+  .flexRow--promo__banner--mobile {
+    padding-top: 1rem;
   }
 
   .flexRow--deals--icon {
     max-width: 95%;
-    margin-top: 1rem;
+    padding: 1rem 0;
   }
 
   .flexRowContent--information {
@@ -253,15 +253,63 @@
     padding-top: 1rem;
   }
 
-  .flexRowContent--promo__banner--mobile {
-    padding-top: 1rem;
+  .flexRow--promo__banner--three {
+    padding: 0;
+  }
+  .flexRow--promo__banner--four {
+    padding: 0 0 1rem 0;
   }
   .flexCol--icon__banner1 {
     padding-bottom: 1rem;
   }
 
   .flexColChild--icon__banner {
-    height: 100px !important;
+    height: 100% !important;
+  }
+
+  .flexRow--promo__banner--four {
+    padding: 0 0 1rem 0;
+  }
+
+  .flexRow--promo__banner--five {
+    width: 95%;
+    margin: 0 auto;
+    padding: 2rem 0 2rem 0;
+  }
+
+  .flexCol--icon__banner {
+    padding: 0 0 1rem 0;
+  }
+
+  .flexRow--information--four {
+    width: 95%;
+    padding: 2rem 0 0 0;
+  }
+
+  .flexRowContent--information--four {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-y: hidden;
+    gap: 0.5rem;
+  }
+
+  .stretchChildrenWidth    {
+  }
+  .flexRowContent--promo__banner2--mobile{
+    display: flex;
+    gap: 1rem;
+    width: 95%;
+    margin: 0 auto;
   }
 }
 
+@media (max-width: 750px) {
+  .flexRowContent--promo__banner2--mobile{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 95%;
+    margin: 0 auto;
+  }
+}

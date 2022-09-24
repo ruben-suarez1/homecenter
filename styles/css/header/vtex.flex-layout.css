@@ -56,6 +56,7 @@
 .flexRowContent--main-header-mobile {
     height: 3.5rem;
     background: white !important;
+    justify-content: space-between;
 }
 
 .flexCol--login-cart {
@@ -66,5 +67,27 @@
   background: var(--white-color);
 }
 
+.flexRow--logo-header-mobile {
+  margin: auto 0;
+}
+.flexCol--logo-drawer-mobile {
+  flex-direction: unset;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flexRow--search-header-mobile {
+  margin: auto 0;
+}
+
+.flexRow--drawer-header-mobile {
+  margin: auto 0;
+}
+
+.flexColChild--logo-drawer-mobile {
+  height: auto !important;
+}
+
 @media (max-width: 1024) {
+
 }
