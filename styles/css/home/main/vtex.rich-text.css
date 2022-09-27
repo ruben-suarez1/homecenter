@@ -29,5 +29,7 @@
   .heading-level-2  {
     font-size: 1.5rem;
     margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }

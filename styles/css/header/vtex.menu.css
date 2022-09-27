@@ -28,7 +28,7 @@
     text-transform: uppercase;
 }
 .styledLink--more {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 .styledLink--menu-item {
   padding-right: 0.1rem;
@@ -73,5 +73,9 @@
     line-height: 1.25rem;
   }
  }
-
+ @media (max-width: 1100px) {
+  .styledLink--more {
+    font-size: 0.60rem;
+  }
+}
 
