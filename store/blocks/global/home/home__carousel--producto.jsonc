@@ -28,8 +28,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 6,
-        "tablet": 3,
-        "phone": 2
+        "tablet": 4,
+        "phone": 3
       },
       "infinite": true,
       "fullWidth": false,

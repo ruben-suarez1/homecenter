@@ -1,6 +1,12 @@
 .autoCompleteOuterContainer {
   width: 35vw;
 }
+.searchBarContainer {
+  padding: 0;
+}
+.sizeMobile {
+  padding: 0;
+}
 @media (max-width: 1024) {
   .logoImage--logo-cart {
     height: 30px;

@@ -20,6 +20,7 @@
   },
   "image#info__one": {
     "props": {
+      "blockClass": "info-one",
       "src": "assets/img/info__one.jpeg",
       "maxHeight": 370,
       "link": {
@@ -38,6 +39,7 @@
   },
   "image#info__two": {
     "props": {
+      "blockClass": "info-one",
       "src": "assets/img/info__two.jpeg",
       "maxHeight": 370,
       "link": {
