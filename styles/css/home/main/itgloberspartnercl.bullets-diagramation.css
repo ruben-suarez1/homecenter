@@ -15,3 +15,10 @@
   border-radius: 0.3rem;
   color: var(--white-color);
 }
+
+@media (max-width: 1024px) {
+  .bullet__container--bullet-group {
+    padding-top: 0;
+  }
+ }
+

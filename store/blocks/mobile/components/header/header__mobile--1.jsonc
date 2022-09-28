@@ -48,10 +48,16 @@
   },
   "flex-layout.row#search-mobile": {
     "children": [
-      "search-bar"
+      "search-bar#mobile"
     ],
     "props": {
       "blockClass": "search-header-mobile"
+    }
+  },
+
+  "search-bar#mobile": {
+    "props": {
+      "placeholder": "Buscar"
     }
   },
 

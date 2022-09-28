@@ -294,13 +294,26 @@
     gap: 0.5rem;
   }
 
-  .stretchChildrenWidth    {
-  }
   .flexRowContent--promo__banner2--mobile{
     display: flex;
     gap: 1rem;
     width: 95%;
     margin: 0 auto;
+  }
+
+  .flexRow--bullet-group {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 0 2rem 0;
+  }
+  .flexRow--custom-grid {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .flexRow--quick-order {
+    width: 95%;
+    margin-top: 2rem;
   }
 }
 

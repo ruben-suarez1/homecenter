@@ -16,11 +16,11 @@
       "flex-layout.row#home__promo--five",
       "rich-text#shelf__title--two",
       "flex-layout.row#home__icon--four",
-      "flex-layout.row#home__info--one"
-      /* "flex-layout.row#bullet-group",
+      "flex-layout.row#home__info--one",
+      "flex-layout.row#bullet-group",
       "flex-layout.row#custom-grid",
       "flex-layout.row#quick-order",
-      "flex-layout.row#department-search" */
+      "flex-layout.row#department-search"
     ]
   }
 }
