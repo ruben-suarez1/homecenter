@@ -51,3 +51,11 @@
   background: white;
   border-radius: 0.2rem;
 }
+
+@media (max-width: 1024px) {
+  .flexRow--product-main {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+  }
+ }
