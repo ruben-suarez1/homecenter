@@ -13,3 +13,12 @@
 .galleryTitle--layout {
   font-size: 2rem;
 }
+
+.gallery--result-gallery {
+  padding: 0 2rem;
+  gap: 1rem;
+}
+
+.galleryTitle--layout.t-heading-1 {
+  margin-top: 0;
+}

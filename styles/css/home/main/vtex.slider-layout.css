@@ -29,9 +29,15 @@
 
 .bullet__item--title--bullet-group {
   text-align: center;
-  background: var(--secondary-color);
+  background: var(--white-color);
   padding: 0.5rem;
   border-radius: 0.5rem;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.bullet__item--title--bullet-group:hover {
+  background: var(--secondary-color);
   color: var(--white-color);
 }
 

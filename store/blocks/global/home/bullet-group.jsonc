@@ -18,35 +18,35 @@
       "bullets": [
         {
           "image": "assets/bullets-1.jpg",
-          "titleBullet": "Más información...",
+          "titleBullet": "Más información",
           "link": {
             "url": "/new-page"
           }
         },
         {
           "image": "assets/bullets-2.jpg",
-          "titleBullet": "Más información...",
+          "titleBullet": "Más información",
           "link": {
             "url": "/new-page"
           }
         },
         {
           "image": "assets/bullets-3.jpg",
-          "titleBullet": "Más información...",
+          "titleBullet": "Más información",
           "link": {
             "url": "/new-page"
           }
         },
         {
           "image": "assets/bullets-4.jpg",
-          "titleBullet": "Más información...",
+          "titleBullet": "Más información",
           "link": {
             "url": "/new-page"
           }
         },
         {
           "image": "assets/bullets-5.jpg",
-          "titleBullet": "Más información...",
+          "titleBullet": "Más información",
           "link": {
             "url": "/new-page"
           }
@@ -80,8 +80,8 @@
       "blockClass": "bullet-group",
       "itemsPerPage": {
         "desktop": 5,
-        "tablet": 4,
-        "mobile": 4
+        "tablet": 3,
+        "mobile": 2
       },
       "infinite": true
     }
