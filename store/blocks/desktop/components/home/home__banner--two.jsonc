@@ -10,7 +10,7 @@
   },
   "image#banner2__image": {
     "props": {
-      "src": "assets/banner2__image--1.webp",
+      "src": "assets/img/banner2__image--1.webp",
       "maxHeight": 100,
       "link": {
         "url": "/new-page"
