@@ -72,10 +72,8 @@
     padding: 0.9375rem;
     line-height: 1.25rem;
   }
- }
- @media (max-width: 1100px) {
   .styledLink--more {
-    font-size: 0.60rem;
+    font-size: 1rem;
   }
-}
+ }
 
