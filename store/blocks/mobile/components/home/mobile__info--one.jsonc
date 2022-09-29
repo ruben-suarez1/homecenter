@@ -1,0 +1,50 @@
+{
+  "flex-layout.row#mobile__info--one": {
+    "title": "bloque de informacion 1",
+    "children": [
+      "flex-layout.col#info__mobile--one",
+      "flex-layout.col#info__mobile--two"
+    ],
+    "props": {
+      "blockClass": "promo__banner"
+    }
+  },
+  "flex-layout.col#info__mobile--one": {
+    "title": "imagen de informacion 1",
+    "children": [
+      "image#info__mobile--one"
+    ],
+    "props": {
+      "blockClass": "icon__banner"
+    }
+  },
+  "image#info__mobile--one": {
+    "props": {
+      "blockClass": "grid3-one-mobile",
+      "src": "assets/img/banner__info1.jpeg",
+      "maxHeight": 370,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  },
+  "flex-layout.col#info__mobile--two": {
+    "title": "imagen de informacion 2",
+    "children": [
+      "image#info__mobile--two"
+    ],
+    "props": {
+      "blockClass": "icon__banner"
+    }
+  },
+  "image#info__mobile--two": {
+    "props": {
+      "blockClass": "grid3-one-mobile",
+      "src": "assets/img/banner__info4.jpeg",
+      "maxHeight": 370,
+      "link": {
+        "url": "/new-page"
+      }
+    }
+  }
+}
