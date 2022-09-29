@@ -20,6 +20,7 @@
   },
   "image#grid3__one": {
     "props": {
+      "blockClass": "grid3-one-mobile",
       "src": "assets/img/crm__one.webp",
       "maxHeight": 370,
       "link": {
@@ -38,6 +39,7 @@
   },
   "image#grid3__two": {
     "props": {
+      "blockClass": "grid3-one-mobile",
       "src": "assets/img/crm__two.webp",
       "maxHeight": 370,
       "link": {
