@@ -11,7 +11,7 @@
   },
   "image#banner__image": {
     "props": {
-      "src": "assets/banner__image--1.svg",
+      "src": "assets/img/banner__image--1.svg",
       "maxHeight": 60
     }
   }
