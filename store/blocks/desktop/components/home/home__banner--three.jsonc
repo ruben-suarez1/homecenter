@@ -11,7 +11,6 @@
   "image#banner3__image": {
     "props": {
       "src": "assets/img/banner3__image--1.webp",
-      "maxHeight": 100,
       "link": {
         "url": "/new-page"
       }

@@ -74,7 +74,7 @@
 }
 
 .flexRowContent--promo__banner {
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .flexRow--information {
@@ -312,7 +312,7 @@
     padding: 0;
   }
   .flexRow--quick-order {
-    width: 95%;
+    width: 90%;
     margin-top: 2rem;
   }
 }
