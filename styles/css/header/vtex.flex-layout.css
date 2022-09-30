@@ -88,6 +88,11 @@
   height: auto !important;
 }
 
+.flexRowContent--logo-home {
+  display: flex;
+  flex-direction: row;
+}
+
 @media (max-width: 1024) {
 
 }
