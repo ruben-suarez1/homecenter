@@ -7,6 +7,9 @@
 .sizeMobile {
   padding: 0;
 }
+.logoLink--logo-drawer {
+  padding-left: 70%;
+}
 @media (max-width: 1024) {
   .logoImage--logo-cart {
     height: 30px;

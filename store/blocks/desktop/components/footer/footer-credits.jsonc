@@ -28,7 +28,7 @@
   "image#credits": {
     "props": {
       "blockClass": "image__credits",
-      "src": "assets/homencenter_icon.jpg",
+      "src": "assets/img/homencenter_icon.jpg",
       "maxHeight": 25
     }
   }

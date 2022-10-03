@@ -45,6 +45,7 @@
 }
 
 .flexRow--deals--icon .flexCol {
+  width: 200px;
   align-items: center;
   margin-bottom: 0.313rem;
   padding-top: 0.313rem;
@@ -74,7 +75,7 @@
 }
 
 .flexRowContent--promo__banner {
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .flexRow--information {
@@ -220,7 +221,7 @@
   }
 
   .flexCol--icon__container {
-    width: 20rem;
+    width: 200px !important;
     height: 12rem;
   }
 
@@ -312,7 +313,7 @@
     padding: 0;
   }
   .flexRow--quick-order {
-    width: 95%;
+    width: 90%;
     margin-top: 2rem;
   }
 }

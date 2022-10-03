@@ -1,0 +1,390 @@
+{
+  "flex-layout.row#drawer-mobile": {
+    "children": [
+      "drawer"
+    ],
+    "props": {
+      "blockClass": "drawer-header-mobile"
+    }
+  },
+  "drawer": {
+    "title": "menu mobile drawer",
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "title": "menu mobile drawer",
+    "children": [
+      "flex-layout.row#mobile__home",
+      "flex-layout.row#mobile__bogota",
+      "menu-item#mobile__categorias",
+      "menu-item#mobile__servicios",
+      "menu-item#mobile__proyectos",
+      "menu-item#mobile__cmr",
+      "flex-layout.row#mobile__venta",
+      "flex-layout.row#mobile__bogotaservicio"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu--mobile"
+    }
+  },
+  "flex-layout.row#mobile__home": {
+    "props": {
+      "blockClass": "logo-home"
+    },
+    "children": [
+      "menu-item#mobile__home",
+      "logo#mobile__home"
+    ]
+  },
+  "logo#mobile__home": {
+    "title": "logo home",
+    "props": {
+      "title": "Logo",
+      "blockClass": "logo-drawer",
+      "href": "/",
+      "url": "assets/img/drawer-home.png",
+      "width": "25",
+      "height": "25"
+    }
+  },
+  "menu-item#mobile__home": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Home",
+        "text": "Home"
+      }
+    }
+  },
+
+  "flex-layout.row#mobile__bogota": {
+    "props": {
+      "blockClass": "logo-home"
+    },
+    "children": [
+      "menu-item#mobile__bogota",
+      "logo#mobile__bogota"
+    ]
+  },
+  "logo#mobile__bogota": {
+    "title": "logo bogota",
+    "props": {
+      "title": "Logo",
+      "blockClass": "logo-drawer",
+      "href": "/",
+      "url": "assets/img/drawer-bogota.png",
+      "width": "25",
+      "height": "25"
+    }
+  },
+  "menu-item#mobile__bogota": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Bogota d.c.",
+        "text": "Bogota d.c."
+      }
+    }
+  },
+
+  "menu-item#mobile__categorias": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Categorías",
+        "text": "Categorías"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#home"
+    ]
+  },
+  "menu-item#mobile__servicios": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "servicios y proyectos",
+        "text": "servicios y proyectos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#example"
+    ]
+  },
+  "menu-item#mobile__proyectos": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Proyectos e Inspiración",
+        "text": "Proyectos e Inspiración"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#example"
+    ]
+  },
+
+  "menu-item#mobile__cmr": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CMR Puntos",
+        "text": "CMR Puntos"
+      }
+    },
+    "blocks": []
+  },
+
+  "flex-layout.row#mobile__venta": {
+    "props": {
+      "blockClass": "logo-home"
+    },
+    "children": [
+      "menu-item#mobile__venta",
+      "logo#mobile__venta"
+    ]
+  },
+  "logo#mobile__venta": {
+    "title": "logo bogota",
+    "props": {
+      "title": "Logo",
+      "blockClass": "logo-drawer",
+      "href": "/",
+      "url": "assets/img/drawer-bogota.png",
+      "width": "25",
+      "height": "25"
+    }
+  },
+  "menu-item#mobile__venta": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Venta Telefónica 01 8000",
+        "text": "Venta Telefónica 01 8000"
+      }
+    },
+    "blocks": []
+  },
+
+  "flex-layout.row#mobile__bogotaservicio": {
+    "props": {
+      "blockClass": "logo-home"
+    },
+    "children": [
+      "menu-item#mobile__bogotaservicio",
+      "logo#mobile__bogotaservicio"
+    ]
+  },
+  "logo#mobile__bogotaservicio": {
+    "title": "logo bogota",
+    "props": {
+      "title": "Logo",
+      "blockClass": "logo-drawer",
+      "href": "/",
+      "url": "assets/img/drawer-bogota.png",
+      "width": "25",
+      "height": "25"
+    }
+  },
+  "menu-item#mobile__bogotaservicio": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Servicio al cliente 320",
+        "text": "Servicio al cliente 320000"
+      }
+    },
+    "blocks": []
+  },
+
+  "vtex.menu@2.x:submenu.accordion#home": {
+    "children": [
+      "vtex.menu@2.x:menu#home-menu"
+    ]
+  },
+  "vtex.menu@2.x:menu#home-menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category2-1",
+      "menu-item#category2-2",
+      "menu-item#category2-3",
+      "menu-item#category2-4",
+      "menu-item#category2-5"
+    ]
+  },
+  "menu-item#category2-1": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "Construcción y Ferretería",
+        "text": "Construcción y Ferretería"
+      }
+    }
+  },
+  "menu-item#category2-2": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "Pisos, Pinturas y Terminaciones",
+        "text": "Pisos, Pinturas y Terminaciones"
+      }
+    }
+  },
+  "menu-item#category2-3": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "Herramientas y Maquinarias",
+        "text": "Herramientas y Maquinarias"
+      }
+    }
+  },
+  "menu-item#category2-4": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "Baño, Cocina y Aseo",
+        "text": "Baño, Cocina y Aseo"
+      }
+    }
+  },
+  "menu-item#category2-5": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "Electrohogar, Tecnología y Climatización",
+        "text": "Electrohogar, Tecnología y Climatización"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu.accordion#example": {
+    "children": [
+      "vtex.menu@2.x:menu#example-menu"
+    ]
+  },
+  "vtex.menu@2.x:menu#example-menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#example",
+      "menu-item#example",
+      "menu-item#example",
+      "menu-item#example",
+      "menu-item#example"
+    ]
+  },
+  "menu-item#example": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "more",
+      "itemProps": {
+        "type": "internal",
+        "href": "/new-page",
+        "noFollow": true,
+        "tagTitle": "example menu",
+        "text": "example menu"
+      }
+    },
+    "blocks": []
+  }
+}

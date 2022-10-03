@@ -135,7 +135,7 @@
   "image#flecha": {
     "props": {
       "blockClass": "icon-flecha",
-      "src": "assets/proximo.png",
+      "src": "assets/img/proximo.png",
       "maxHeight": 30,
       "maxWidth": 30,
       "link": {
