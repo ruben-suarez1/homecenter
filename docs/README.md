@@ -1,5 +1,7 @@
 # Homecenter Store
 
+![homecenter](https://user-images.githubusercontent.com/84733911/193512262-b99efc3d-0c8f-4f24-b7e5-84cfa6b70564.png)
+
 ## Configuración
 ### Paso 1 - Configuración básica
 
