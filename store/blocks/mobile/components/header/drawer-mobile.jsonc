@@ -35,8 +35,8 @@
       "blockClass": "logo-home"
     },
     "children": [
-      "menu-item#mobile__home",
-      "logo#mobile__home"
+      "menu-item#mobile__home"/* ,
+      "logo#mobile__home" */
     ]
   },
   "logo#mobile__home": {
@@ -72,8 +72,8 @@
       "blockClass": "logo-home"
     },
     "children": [
-      "menu-item#mobile__bogota",
-      "logo#mobile__bogota"
+      "menu-item#mobile__bogota"/* ,
+      "logo#mobile__bogota" */
     ]
   },
   "logo#mobile__bogota": {
@@ -185,8 +185,8 @@
       "blockClass": "logo-home"
     },
     "children": [
-      "menu-item#mobile__venta",
-      "logo#mobile__venta"
+      "menu-item#mobile__venta"/* ,
+      "logo#mobile__venta" */
     ]
   },
   "logo#mobile__venta": {
@@ -223,8 +223,8 @@
       "blockClass": "logo-home"
     },
     "children": [
-      "menu-item#mobile__bogotaservicio",
-      "logo#mobile__bogotaservicio"
+      "menu-item#mobile__bogotaservicio"/* ,
+      "logo#mobile__bogotaservicio" */
     ]
   },
   "logo#mobile__bogotaservicio": {
